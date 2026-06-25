@@ -1,0 +1,7 @@
+interface:
+  display_name: "Maria Healthcare Marketing"
+  short_description: "SEO and compliance guardrails for Maria"
+  default_prompt: "Use $maria-healthcare-marketing to plan SEO-safe content for a Heilpraktikerin page."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Naturheilpraxis Maria">
+  <rect width="1200" height="630" fill="#fbfbf7"/>
+  <rect x="72" y="72" width="1056" height="486" fill="#dfe9e1"/>
+  <path d="M160 470c176-38 287-166 338-385 95 162 80 356-42 469-84 78-211 91-296-84Z" fill="#315f4d"/>
+  <path d="M214 484c111-115 207-252 284-399" fill="none" stroke="#fbfbf7" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="905" cy="202" r="82" fill="#b85849"/>
+  <rect x="690" y="346" width="318" height="16" fill="#e6c153"/>
+  <text x="690" y="294" fill="#20231e" font-family="Arial, sans-serif" font-size="54" font-weight="700">Naturheilpraxis Maria</text>
+  <text x="692" y="335" fill="#5f665d" font-family="Arial, sans-serif" font-size="28">Heilpraktikerin in [Ort]</text>
+</svg>
