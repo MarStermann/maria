@@ -78,6 +78,6 @@
 
 1. Draft content.
 2. SEO review.
-3. Fachliche/rechtliche Pruefung.
+3. Fachliche/rechtliche Prüfung.
 4. Publish.
 5. Scheduled re-review.

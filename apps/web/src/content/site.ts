@@ -1,50 +1,64 @@
 export const siteConfig = {
-  name: "Naturheilpraxis Maria",
-  practitionerName: "Maria [Nachname]",
-  city: "[Ort]",
-  baseUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com",
+  name: "Maria Alscher-Scheunemann",
+  practitionerName: "Maria Alscher-Scheunemann",
+  role: "Heilpraktikerin",
+  city: "Hamburg",
+  baseUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.alscher-scheunemann.de",
   description:
-    "Ruhige, persoenliche Naturheilpraxis fuer individuelle Anamnese, transparente Begleitung und achtsame Therapieplanung.",
+    "Akupunktur, klassische Naturheilkunde und ganzheitliche Frauenheilkunde mit ruhiger Anamnese und transparenter Begleitung.",
+  branding: {
+    domain: "www.alscher-scheunemann.de",
+    quote: "Weil Gesundheit mehr ist als die Abwesenheit von Krankheit."
+  },
   contact: {
-    phone: "[Telefon]",
-    email: "kontakt@example.com",
+    phone: "040 / 432 710 84",
+    email: "info@alscher-scheunemann.de",
     appointmentUrl: "/kontakt"
   },
+  openingHours: "Montag bis Freitag nach Vereinbarung",
   address: {
-    street: "",
-    postalCode: "",
-    locality: "[Ort]",
+    street: "Seumestraße 20",
+    postalCode: "22089",
+    locality: "Hamburg",
     country: "DE"
   },
   services: [
     {
-      title: "Erstanamnese",
-      slug: "erstanamnese",
+      title: "Akupunktur",
+      slug: "akupunktur",
       summary:
-        "Ausfuehrliches Erstgespraech mit Raum fuer Vorgeschichte, aktuelle Fragen und die gemeinsame Planung der naechsten Schritte.",
+        "Ruhige, individuell eingeordnete Akupunktur-Begleitung im Rahmen einer persönlichen Anamnese.",
       metaDescription:
-        "Erstanamnese in der Naturheilpraxis Maria: ruhiges Erstgespraech, individuelle Einordnung und transparente naechste Schritte."
+        "Akupunktur bei Maria Alscher-Scheunemann: persönliche Anamnese, transparente Begleitung und ruhige Terminplanung."
     },
     {
-      title: "Naturheilkundliche Begleitung",
-      slug: "naturheilkundliche-begleitung",
+      title: "Klassische Naturheilkunde",
+      slug: "klassische-naturheilkunde",
       summary:
-        "Individuelle Begleitung mit sorgfaeltiger Auswahl naturheilkundlicher Verfahren nach persoenlicher Situation und Zielsetzung.",
+        "Naturheilkundliche Verfahren werden sorgfältig erklärt und passend zur individuellen Situation besprochen.",
       metaDescription:
-        "Naturheilkundliche Begleitung in [Ort]: individuell geplant, transparent erklaert und fachlich sorgfaeltig begleitet."
+        "Klassische Naturheilkunde in der Praxis Maria Alscher-Scheunemann: sorgfältig erklärt und individuell begleitet."
     },
     {
-      title: "Praevention und Alltag",
-      slug: "praevention-alltag",
+      title: "Ganzheitliche Frauenheilkunde",
+      slug: "ganzheitliche-frauenheilkunde",
       summary:
-        "Praktische Impulse fuer Routinen, Ressourcen und alltagstaugliche Gesundheitsentscheidungen im persoenlichen Rahmen.",
+        "Begleitung für frauenbezogene Gesundheitsthemen mit Zeit für Fragen, Kontext und alltagstaugliche nächste Schritte.",
       metaDescription:
-        "Praevention und Alltag in der Naturheilpraxis Maria: klare Impulse fuer nachhaltige Routinen und persoenliche Ressourcen."
+        "Ganzheitliche Frauenheilkunde bei Maria Alscher-Scheunemann: ruhige Beratung, Anamnese und individuelle Begleitung."
+    },
+    {
+      title: "Diagnostik, Behandlung und Beratung",
+      slug: "diagnostik-behandlung-beratung",
+      summary:
+        "Strukturierte Einordnung, transparente Empfehlungen und Beratung mit klaren Grenzen der naturheilkundlichen Arbeit.",
+      metaDescription:
+        "Diagnostik, Behandlung und Beratung bei Maria Alscher-Scheunemann: strukturierte Einordnung und transparente nächste Schritte."
     }
   ],
   navigation: [
     { label: "Leistungen", href: "/leistungen" },
-    { label: "Ueber mich", href: "/ueber-mich" },
+    { label: "Über mich", href: "/ueber-mich" },
     { label: "Kontakt", href: "/kontakt" }
   ]
 } as const;

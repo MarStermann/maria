@@ -3,6 +3,8 @@
 ## Voice
 
 - German by default.
+- Use real German characters in visible copy: `ä`, `ö`, `ü`, `Ä`, `Ö`, `Ü`, and `ß`.
+- Do not write `ae`, `oe`, `ue`, or `ss` as replacements in German copy. Exceptions: URLs, slugs, code identifiers, file names, env vars, and third-party technical values.
 - Calm, clear, warm, competent, and not mystical.
 - Patient-facing copy should reduce uncertainty without overpromising.
 - Prefer concrete next steps over abstract wellness language.
@@ -19,8 +21,8 @@ Avoid:
 
 Prefer:
 
-- "begleitet", "unterstuetzt", "kann hilfreich sein", "im Rahmen einer individuellen Anamnese".
-- Clear boundaries: "Die Behandlung ersetzt keine aerztliche Abklaerung."
+- "begleitet", "unterstützt", "kann hilfreich sein", "im Rahmen einer individuellen Anamnese".
+- Clear boundaries: "Die Behandlung ersetzt keine ärztliche Abklärung."
 - Plain explanations of process, duration, preparation, and what happens in a first appointment.
 
 ## Conversion Copy

@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
+import EventAvailableRoundedIcon from "@mui/icons-material/EventAvailableRounded";
+import { Box, Button, Stack, Typography } from "@mui/material";
 
 import { JsonLd } from "@/components/json-ld";
+import { StaticPage } from "@/components/static-page";
 import { siteConfig } from "@/content/site";
 import { buildServiceJsonLd, createPageMetadata } from "@/lib/seo";
+import { brandColors } from "@/theme/brand";
 
 type ServicePageProps = {
   params: Promise<{
@@ -44,34 +48,50 @@ export default async function ServicePage({ params }: ServicePageProps) {
   return (
     <>
       <JsonLd data={buildServiceJsonLd(service)} />
-      <article className="content-page">
-        <p className="eyebrow">Leistung</p>
-        <h1>{service.title}</h1>
-        <p className="page-lead">{service.summary}</p>
-        <section>
-          <h2>Was Sie erwartet</h2>
-          <ul className="check-list">
-            <li>Ein ruhiges Gespraech ueber Ihre aktuelle Situation.</li>
-            <li>Transparente Erklaerung moeglicher naechster Schritte.</li>
-            <li>Eine Empfehlung, die Ihre persoenlichen Grenzen respektiert.</li>
-          </ul>
-        </section>
-        <section className="legal-note">
-          <h2>Wichtiger Hinweis</h2>
-          <p>
-            Diese Inhalte sind Platzhalter fuer die fachliche Ausarbeitung. Naturheilkundliche
-            Begleitung ersetzt keine aerztliche Abklaerung, Notfallversorgung oder verordnete Therapie.
-          </p>
-        </section>
-        <div className="action-row">
-          <Link className="button button-primary" href="/kontakt">
+      <StaticPage eyebrow="Leistung" lead={service.summary} title={service.title}>
+        <Box component="section">
+          <Typography component="h2" variant="h2">
+            Was Sie erwartet
+          </Typography>
+          <Stack component="ul" spacing={1.5} sx={{ listStyle: "none", mt: 2.5, p: 0 }}>
+            {[
+              "Ein ruhiges Gespräch über Ihre aktuelle Situation.",
+              "Transparente Erklärung möglicher nächster Schritte.",
+              "Eine Empfehlung, die Ihre persönlichen Grenzen respektiert."
+            ].map((item) => (
+              <Box
+                component="li"
+                key={item}
+                sx={{
+                  bgcolor: "background.paper",
+                  border: `1px solid ${brandColors.taupe}`,
+                  borderLeft: `4px solid ${brandColors.gold}`,
+                  borderRadius: 1,
+                  p: 2.25
+                }}
+              >
+                <Typography>{item}</Typography>
+              </Box>
+            ))}
+          </Stack>
+        </Box>
+        <Stack direction={{ xs: "column", sm: "row" }} spacing={1.5}>
+          <Button
+            href="/kontakt"
+            startIcon={<EventAvailableRoundedIcon />}
+            variant="contained"
+          >
             Termin anfragen
-          </Link>
-          <Link className="button button-secondary" href="/leistungen">
-            Zurueck zu den Leistungen
-          </Link>
-        </div>
-      </article>
+          </Button>
+          <Button
+            href="/leistungen"
+            startIcon={<ArrowBackRoundedIcon />}
+            variant="outlined"
+          >
+            Zurück zu den Leistungen
+          </Button>
+        </Stack>
+      </StaticPage>
     </>
   );
 }

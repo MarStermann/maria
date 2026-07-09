@@ -1,33 +1,54 @@
-import Link from "next/link";
+import ArrowForwardRoundedIcon from "@mui/icons-material/ArrowForwardRounded";
+import SpaRoundedIcon from "@mui/icons-material/SpaRounded";
+import { Box, Button, Card, CardContent, Typography } from "@mui/material";
 
+import { StaticPage } from "@/components/static-page";
 import { siteConfig } from "@/content/site";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
   title: "Leistungen",
   description:
-    "Leistungen der Naturheilpraxis Maria: Erstanamnese, naturheilkundliche Begleitung und alltagstaugliche Praevention.",
+    "Leistungen von Maria Alscher-Scheunemann: Akupunktur, klassische Naturheilkunde, Frauenheilkunde, Diagnostik und Beratung.",
   path: "/leistungen"
 });
 
 export default function ServicesPage() {
   return (
-    <div className="content-page">
-      <p className="eyebrow">Leistungen</p>
-      <h1>Naturheilkundliche Begleitung</h1>
-      <p className="page-lead">
-        Die Leistungsseiten sind bewusst klar gehalten. Spaeter koennen sie aus dem CMS
-        mit fachlich geprueften Details, FAQ und internen Links erweitert werden.
-      </p>
-      <section className="service-grid">
+    <StaticPage
+      eyebrow="Leistungen"
+      lead="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+      title="Akupunktur und Naturheilkunde"
+    >
+      <Box
+        component="section"
+        sx={{
+          display: "grid",
+          gap: 2,
+          gridTemplateColumns: { xs: "1fr", md: "repeat(2, minmax(0, 1fr))" }
+        }}
+      >
         {siteConfig.services.map((service) => (
-          <article className="service-card" key={service.slug}>
-            <h2>{service.title}</h2>
-            <p>{service.summary}</p>
-            <Link href={`/leistungen/${service.slug}`}>Details ansehen</Link>
-          </article>
+          <Card component="article" key={service.slug} variant="outlined">
+            <CardContent sx={{ p: 3 }}>
+              <SpaRoundedIcon sx={{ color: "secondary.main", mb: 2 }} />
+              <Typography component="h2" variant="h3">
+                {service.title}
+              </Typography>
+              <Typography color="text.secondary" sx={{ mt: 1.5 }}>
+                {service.summary}
+              </Typography>
+              <Button
+                endIcon={<ArrowForwardRoundedIcon />}
+                href={`/leistungen/${service.slug}`}
+                sx={{ mt: 2, px: 0 }}
+              >
+                Details ansehen
+              </Button>
+            </CardContent>
+          </Card>
         ))}
-      </section>
-    </div>
+      </Box>
+    </StaticPage>
   );
 }

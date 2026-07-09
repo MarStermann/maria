@@ -5,12 +5,12 @@ import { siteConfig } from "@/content/site";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: siteConfig.name,
-    short_name: "Praxis Maria",
+    short_name: "Maria A.-S.",
     description: siteConfig.description,
     start_url: "/",
     display: "standalone",
-    background_color: "#fbfbf7",
-    theme_color: "#315f4d",
+    background_color: "#fbf7ee",
+    theme_color: "#344a2f",
     icons: [
       {
         src: "/favicon.svg",

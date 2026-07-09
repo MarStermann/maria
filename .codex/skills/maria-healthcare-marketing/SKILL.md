@@ -11,7 +11,8 @@ description: SEO, marketing, content strategy, conversion copy, CMS structure, a
 2. Keep claims conservative and verifiable. Never invent outcomes, credentials, reviews, addresses, or medical indications.
 3. Build each page around one search intent and one primary conversion action.
 4. Prefer German copy unless the user asks otherwise.
-5. Treat legal, medical, privacy, and analytics decisions as review-required before launch.
+5. Use real German umlauts and `ß` in visible German copy. Keep ASCII transliteration only for slugs, URLs, code identifiers, file names, env vars, and other technical values.
+6. Treat legal, medical, privacy, and analytics decisions as review-required before launch.
 
 ## Required References
 

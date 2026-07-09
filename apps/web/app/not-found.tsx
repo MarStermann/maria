@@ -1,18 +1,18 @@
-import Link from "next/link";
+import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
+import { Button } from "@mui/material";
+
+import { StaticPage } from "@/components/static-page";
 
 export default function NotFoundPage() {
   return (
-    <article className="content-page">
-      <p className="eyebrow">404</p>
-      <h1>Seite nicht gefunden</h1>
-      <p className="page-lead">
-        Die angeforderte Seite existiert nicht oder wurde noch nicht veroeffentlicht.
-      </p>
-      <div className="action-row">
-        <Link className="button button-primary" href="/">
-          Zur Startseite
-        </Link>
-      </div>
-    </article>
+    <StaticPage
+      eyebrow="404"
+      lead="Die angeforderte Seite existiert nicht oder wurde noch nicht veröffentlicht."
+      title="Seite nicht gefunden"
+    >
+      <Button href="/" startIcon={<HomeRoundedIcon />} variant="contained">
+        Zur Startseite
+      </Button>
+    </StaticPage>
   );
 }
