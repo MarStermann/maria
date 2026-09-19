@@ -1,7 +1,7 @@
 FROM node:22-alpine
 RUN apk add --no-cache git openssh-client
 WORKDIR /app
-COPY deploy/cms/server.mjs ./server.mjs
+COPY --chown=node:node deploy/cms/server.mjs ./server.mjs
 USER node
 ENV NODE_ENV=production \
     GIT_TERMINAL_PROMPT=0 \
