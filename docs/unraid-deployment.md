@@ -9,7 +9,7 @@ Jeder Push auf `main` startet Installation, Typecheck, Tests, Website-Build und 
 
 ## Bearbeitung
 
-Der Browser fragt beim Öffnen der Redaktion nach Benutzername und Passwort. Die Erstzugangsdaten sind ausschließlich lokal in `.deploy-local/access.json` abgelegt und von Git ausgeschlossen. In der Redaktion **Redaktion öffnen** anklicken. Änderungen und Bilder werden in einem persistenten Git-Arbeitsverzeichnis gespeichert, committed und nach `main` gepusht. **Speichern und aktualisieren** startet dadurch die Pipeline. Bis zu deren erfolgreichem Abschluss zeigt die Website weiterhin den vorherigen Build. Ein fehlgeschlagener Build veröffentlicht keine Änderungen.
+Der Browser fragt beim Öffnen der Redaktion nach Benutzername und Passwort. Die Erstzugangsdaten sind ausschließlich lokal in `.deploy-local/access.json` abgelegt und von Git ausgeschlossen. In der Redaktion **Redaktion öffnen** anklicken. Änderungen und Bilder werden in einem persistenten Git-Arbeitsverzeichnis gespeichert, committed und nach `main` gepusht. **Speichern** startet dadurch die Pipeline. Bis zu deren erfolgreichem Abschluss zeigt die Website weiterhin den vorherigen Build. Ein fehlgeschlagener Build veröffentlicht keine Änderungen.
 
 Die vorhandenen Inhaltsstatus und Freigabeprüfungen gelten weiterhin. Die Suchmaschinenindexierung bleibt mit `VITE_ALLOW_INDEXING=false` gesperrt. Praxisdomain und DNS werden durch dieses Deployment nicht umgestellt.
 
@@ -23,7 +23,7 @@ Die vorhandenen Inhaltsstatus und Freigabeprüfungen gelten weiterhin. Die Suchm
 - `/mnt/user/appdata/maria-website/current`: zuletzt erfolgreich gestartetes Release.
 - `/mnt/user/appdata/maria-website/backups`: Compose-Konfiguration und Image-Referenz vor jedem Wechsel.
 
-Der Runner bleibt ohne Docker-Socket, läuft als unprivilegierter Benutzer und behält die vorhandene gemeinsame 4-GiB-Grenze. Er baut die Anwendung und sendet nur die fertigen Artefakte. Der Unraid-Schlüssel ist in `authorized_keys` mit `restrict` und dem festen Befehl `/boot/config/maria/deploy.sh` hinterlegt. Dieser akzeptiert ausschließlich `deploy <Commit-SHA>`. Die Runtime-Images werden auf Unraid erstellt; die Dienste sind auf 128 MiB beziehungsweise 256 MiB und jeweils 0,5 CPUs begrenzt.
+Der Runner bleibt ohne Docker-Socket, läuft als unprivilegierter Benutzer und behält die vorhandene gemeinsame 4-GiB-Grenze. Er baut die Anwendung und sendet nur die fertigen Artefakte. Der Unraid-Schlüssel ist in `authorized_keys` mit `restrict` und dem festen Befehl `/bin/bash /boot/config/maria/deploy.sh` hinterlegt. Der ausdrückliche Bash-Aufruf ist nötig, weil Unraids Boot-Volume keine direkt ausgeführten Skripte erlaubt. Dieser Befehl akzeptiert ausschließlich `deploy <Commit-SHA>`. Die Runtime-Images werden auf Unraid erstellt; die Dienste sind auf 128 MiB beziehungsweise 256 MiB und jeweils 0,5 CPUs begrenzt.
 
 ## GitHub-Konfiguration
 

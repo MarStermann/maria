@@ -28,9 +28,9 @@ async function start() {
         editorToolbar: {
           ...german.editor.editorToolbar,
           publishing: online ? "Wird gespeichert …" : "Wird lokal gespeichert …",
-          publish: online ? "Speichern und aktualisieren" : "Lokal speichern",
-          published: online ? "Gespeichert · Website wird aktualisiert" : "Lokal gespeichert",
-          publishNow: online ? "Speichern und aktualisieren" : "Jetzt lokal speichern",
+          publish: online ? "Speichern" : "Lokal speichern",
+          published: online ? "Gespeichert" : "Lokal gespeichert",
+          publishNow: online ? "Jetzt speichern" : "Jetzt lokal speichern",
           deployButtonLabel: "Website ansehen"
         }
       }
