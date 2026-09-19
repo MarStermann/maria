@@ -1,0 +1,19 @@
+{
+  "seo": {
+    "title": "Kontakt",
+    "description": "Kontakt zu Maria Alscher-Scheunemann in Hamburg. Termin anfragen, Anliegen kurz schildern und nächste Schritte klären.",
+    "image": "/og-default.svg",
+    "noIndex": false
+  },
+  "eyebrow": "Kontakt",
+  "title": "Termin anfragen",
+  "lead": "Rufen Sie gerne an oder schreiben Sie eine kurze Nachricht mit Ihrem Anliegen. Ein kurzer persönlicher Kontakt im Vorfeld hilft oft, erste Fragen zu klären.",
+  "privacyHeading": "Datenschutz beim Erstkontakt",
+  "privacyText": "Bitte senden Sie keine sensiblen Gesundheitsdaten per unverschlüsselter E-Mail, bevor ein geeigneter Kommunikationsweg abgestimmt ist.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

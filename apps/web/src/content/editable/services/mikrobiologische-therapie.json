@@ -1,0 +1,76 @@
+{
+  "title": "Mikrobiologische Therapie",
+  "slug": "mikrobiologische-therapie",
+  "image": "/wordpress images/Darmschleimhaut-1.webp",
+  "imagePosition": "center 52%",
+  "imageScale": 1,
+  "summary": "Verdauung, Mikrobiom und vorhandene Befunde gemeinsam betrachten – mit individuellen Fragen statt pauschaler Empfehlungen für eine Darmkur.",
+  "metaDescription": "Mikrobiologische Therapie in Hamburg: Verdauung, Mikrobiom, Stuhlbefunde und Probiotika individuell und mit klaren Grenzen einordnen.",
+  "seo": {
+    "title": "Mikrobiologische Therapie Hamburg | Darm & Mikrobiom",
+    "description": "Mikrobiologische Therapie in Hamburg: Verdauung, Mikrobiom, Stuhlbefunde und Probiotika individuell und mit klaren Grenzen einordnen.",
+    "image": "/wordpress images/Darmschleimhaut-1.webp",
+    "noIndex": false
+  },
+  "imageAlt": "Schematische Illustration einer Darmschleimhaut mit Mikroorganismen, Epithelzellen und darunterliegenden Gewebeschichten.",
+  "imageSource": "Schematische Darstellung · Originalwebsite der Praxis",
+  "imagePermission": "Aus dem vorhandenen Medienbestand der Originalwebsite übernommen. Nutzungsrechte und Freigabe für die neue Website sind vor Veröffentlichung durch die Praxis zu bestätigen.",
+  "process": [
+    "Wir betrachten Ihre Verdauungsbeschwerden, deren Verlauf und die bisherige medizinische Abklärung.",
+    "Vorhandene Befunde und eine gegebenenfalls sinnvolle zusätzliche Fragestellung werden besprochen.",
+    "Mögliche Präparate werden hinsichtlich Datenlage, Verträglichkeit und persönlicher Eignung eingeordnet.",
+    "Wir vereinbaren einen Zeitpunkt, um Ihre Beobachtungen und das weitere Vorgehen erneut zu beurteilen."
+  ],
+  "notice": "Verdauungsbeschwerden können unterschiedliche Ursachen haben und erfordern gegebenenfalls ärztliche Abklärung. Mikrobiomtests und Probiotika sind nicht für jede Fragestellung aussagekräftig oder geeignet und ersetzen keine notwendige medizinische Versorgung.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "introduction": "Im Darm lebt eine vielfältige Gemeinschaft von Mikroorganismen, die häufig als Darmflora oder Mikrobiom bezeichnet wird. Die mikrobiologische Therapie beschäftigt sich mit diesem Lebensraum und möglichen Anwendungen entsprechender Präparate. In meiner Praxis beginnt das Thema jedoch bei Ihren konkreten Beschwerden und vorhandenen Befunden. Völlegefühl, Blähungen oder Veränderungen der Verdauung können unterschiedliche Ursachen haben und lassen sich nicht allein einer vermeintlich ungünstigen Darmflora zuordnen. Deshalb besprechen wir zunächst, was bereits medizinisch geklärt wurde. Erst danach geht es um die Frage, ob zusätzliche Untersuchungen oder eine ergänzende Begleitung für Ihre persönliche Situation sinnvoll erscheinen.",
+  "sections": [
+    {
+      "heading": "Befunde brauchen eine konkrete Fragestellung",
+      "body": "Eine Stuhluntersuchung kann je nach Fragestellung Teil der Abklärung sein. Entscheidend ist dabei, welche Frage eine Untersuchung beantworten soll und welche Aussagekraft der gewählte Test besitzt. Nicht jeder Laborwert erklärt Beschwerden oder begründet automatisch eine Behandlung. Vor zusätzlichen Untersuchungen sollten deshalb Nutzen, Grenzen und mögliche Kosten besprochen werden. Vorhandene ärztliche Befunde werden einbezogen. Eine pauschale Zuschreibung unterschiedlicher Beschwerden zu einer „Dysbiose“ oder einem „Leaky Gut“ ersetzt keine sorgfältige medizinische Abklärung."
+    },
+    {
+      "heading": "Präparate und Verlauf individuell betrachten",
+      "body": "Eine Empfehlung beginnt mit Ihrem persönlichen Anliegen und Ihren Befunden. Auch eine ergänzende Anwendung sollte deshalb individuell ausgewählt werden. Bei Probiotika hängen mögliche Effekte vom untersuchten Mikroorganismus, dem konkreten Produkt und dem jeweiligen Anwendungsgebiet ab; Ergebnisse lassen sich nicht beliebig übertragen. Ebenso müssen Verträglichkeit und persönliche Risiken berücksichtigt werden. Eine bestimmte Zusammensetzung des Mikrobioms oder eine dauerhafte Beschwerdefreiheit lässt sich nicht versprechen. Gemeinsam werden daher Erwartungen, ein überschaubarer Zeitraum und die Kriterien für eine erneute Beurteilung besprochen."
+    }
+  ],
+  "patientQuestions": [
+    "Welche meiner Verdauungsbeschwerden sind bereits abgeklärt und welche Fragen bleiben offen?",
+    "Was kann ein vorhandener Stuhlbefund aussagen und wo liegen seine Grenzen?",
+    "Ist ein konkretes mikrobiologisches Präparat für mein Anliegen sinnvoll untersucht?"
+  ],
+  "preparationNotes": [
+    "Bringen Sie vorhandene gastroenterologische Befunde, Laborergebnisse und gegebenenfalls frühere Stuhlbefunde mit.",
+    "Notieren Sie über einige Tage Beschwerden, Mahlzeiten und Veränderungen der Verdauung, ohne vorab größere Einschränkungen einzuführen.",
+    "Erfassen Sie Medikamente, kürzlich verwendete Antibiotika und bereits eingenommene Probiotika mit genauer Produktbezeichnung."
+  ],
+  "faqs": [
+    {
+      "question": "Benötige ich vor dem ersten Termin eine Stuhluntersuchung?",
+      "answer": "Nein. Lassen Sie nicht allein für den Termin eigenständig einen neuen Test durchführen. Zunächst werden vorhandene Befunde und die konkrete Fragestellung besprochen. Ob eine zusätzliche Untersuchung sinnvoll ist, wird erst danach eingeordnet."
+    },
+    {
+      "question": "Sind Probiotika untereinander austauschbar?",
+      "answer": "Nein. Produkte unterscheiden sich in den enthaltenen Mikroorganismen und ihrer Zusammensetzung. Forschungsergebnisse gelten nicht automatisch für alle Präparate oder Beschwerden. Eine Empfehlung muss sich auf das konkrete Produkt und Anliegen beziehen."
+    },
+    {
+      "question": "Wie lange dauert eine mikrobiologische Begleitung?",
+      "answer": "Eine Begleitung kann sich über mehrere Wochen erstrecken. Eine feste Dauer gilt jedoch nicht für jede Person. Ob eine Anwendung fortgeführt wird, sollte anhand von Verträglichkeit, Beschwerden und einer vereinbarten Rückmeldung beurteilt werden."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Originalseite der Praxis: Mikrobiologische Therapie",
+      "url": "https://www.alscher-scheunemann.de/therapieverfahren/mikrobiologische-therapie/"
+    },
+    {
+      "label": "NCCIH: Probiotika – Nutzen und Sicherheit (englisch)",
+      "url": "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety"
+    }
+  ]
+}

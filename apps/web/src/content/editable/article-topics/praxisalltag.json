@@ -1,0 +1,6 @@
+{
+  "type": "articleTopic", "slug": "praxisalltag", "title": "Praxisalltag",
+  "description": "Einblicke, Gedanken und Informationen aus der Praxis.", "order": 3,
+  "seo": { "title": "Praxisalltag – Einblicke und Beiträge", "description": "Einblicke und Informationen aus dem Praxisalltag von Maria Alscher-Scheunemann.", "noIndex": false },
+  "review": { "status": "published", "medicalReviewRequired": false }
+}

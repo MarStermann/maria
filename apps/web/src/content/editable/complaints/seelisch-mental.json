@@ -1,0 +1,85 @@
+{
+  "id": "seelisch-mental",
+  "label": "Seelisch & mental",
+  "shortLabel": "Seelisch & mental",
+  "description": "Schlaf, Stress, innere Unruhe und Erschöpfung können körperliche und seelische Ebenen berühren. Akute psychische Krisen gehören in fachärztliche oder psychotherapeutische Hände.",
+  "marker": {
+    "targetX": 49,
+    "targetY": 36,
+    "calloutX": 96,
+    "calloutY": 31,
+    "side": "right",
+    "zoomScale": 1.28
+  },
+  "groups": [
+    {
+      "id": "nervensystem-innere-balance",
+      "label": "Nervensystem & innere Balance",
+      "topics": [
+        {
+          "title": "Stress & innere Unruhe",
+          "slug": "stress-innere-unruhe",
+          "metaDescription": "Stress, Nervosität und innere Unruhe verstehen: körperliche und seelische Belastungsmuster sowie naturheilkundliche Begleitung in Hamburg.",
+          "description": "Anhaltender Stress und innere Unruhe können sich körperlich und seelisch bemerkbar machen – etwa durch Anspannung, kreisende Gedanken oder fehlende Erholung. Die Begleitung richtet sich nach Ihrem persönlichen Belastungsmuster.",
+          "therapySlugs": [
+            "ohrakupunktur",
+            "fussreflexzonentherapie",
+            "pflanzenheilkunde"
+          ],
+          "seoTitle": "Stress & innere Unruhe in Hamburg",
+          "image": "/xray/xray-seelisch-mental.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Schlafstörungen",
+          "slug": "schlafstoerungen",
+          "metaDescription": "Schlafstörungen mit Ein- oder Durchschlafproblemen individuell betrachten: mögliche Auslöser, Abklärung und Begleitung in Hamburg.",
+          "description": "Probleme beim Ein- oder Durchschlafen, unruhiger Schlaf oder frühes Erwachen können viele Auslöser haben. Stress, Lebensphase und körperliche Beschwerden werden gemeinsam betrachtet.",
+          "therapySlugs": [
+            "ohrakupunktur",
+            "fussreflexzonentherapie",
+            "pflanzenheilkunde",
+            "komplex-homoeopathie"
+          ],
+          "seoTitle": "Schlafstörungen in Hamburg",
+          "image": "/xray/xray-seelisch-mental.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Erschöpfung",
+          "slug": "erschoepfung",
+          "metaDescription": "Anhaltende Müdigkeit und Erschöpfung sorgfältig einordnen: mögliche körperliche und seelische Faktoren sowie wichtige medizinische Abklärung.",
+          "description": "Wenn Kraft und Erholung über längere Zeit fehlen, können körperliche, seelische und alltägliche Belastungen zusammenspielen. Neu aufgetretene oder anhaltende Erschöpfung sollte medizinisch abgeklärt werden.",
+          "therapySlugs": [
+            "ohrakupunktur",
+            "fussreflexzonentherapie",
+            "mikrobiologische-therapie"
+          ],
+          "seoTitle": "Erschöpfung in Hamburg",
+          "image": "/xray/xray-seelisch-mental.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Stimmung & emotionale Empfindsamkeit",
+          "slug": "stimmung-emotionale-empfindsamkeit",
+          "seoTitle": "Stimmungsschwankungen in Hamburg",
+          "metaDescription": "Stimmungsschwankungen und emotionale Empfindsamkeit in belastenden oder hormonellen Phasen vorsichtig und ergänzend begleiten.",
+          "description": "Stimmungsschwankungen, erhöhte Reizbarkeit oder emotionale Empfindsamkeit können besonders in belastenden oder hormonellen Übergangsphasen auftreten. Eine naturheilkundliche Begleitung kommt hier nur ergänzend infrage.",
+          "therapySlugs": [
+            "pflanzenheilkunde",
+            "naturheilkundliche-frauenheilkunde"
+          ],
+          "careNote": "Bei Depressionen, Angstzuständen oder akuten Krisen ist eine ärztliche oder psychotherapeutische Abklärung wichtig.",
+          "image": "/xray/xray-seelisch-mental.webp",
+          "noIndex": false
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

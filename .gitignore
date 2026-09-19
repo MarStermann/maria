@@ -1,7 +1,10 @@
 # Dependencies
 node_modules/
+.pnpm-store/
+.deploy-local/
+.deploy-tmp-*/
 
-# Next.js
+# Framework caches
 .next/
 out/
 

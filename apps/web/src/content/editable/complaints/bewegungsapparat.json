@@ -1,0 +1,68 @@
+{
+  "id": "bewegungsapparat",
+  "label": "Nacken, Rücken & Gelenke",
+  "shortLabel": "Rücken & Gelenke",
+  "description": "Schmerzen, Verspannungen und eingeschränkte Beweglichkeit können Nacken, Rücken, Schultern oder Gelenke betreffen. Die Begleitung orientiert sich an Verlauf, Belastung und Ihrem persönlichen Beschwerdemuster.",
+  "marker": {
+    "targetX": 45,
+    "targetY": 31,
+    "calloutX": 4,
+    "calloutY": 50,
+    "side": "left",
+    "zoomScale": 1.3
+  },
+  "groups": [
+    {
+      "id": "bewegungsapparat",
+      "label": "Bewegungsapparat",
+      "topics": [
+        {
+          "title": "Rücken- & Nackenschmerzen",
+          "slug": "ruecken-nackenschmerzen",
+          "metaDescription": "Rücken- und Nackenschmerzen ergänzend begleiten: Verlauf, Beweglichkeit und mögliche Belastungsfaktoren individuell in Hamburg einordnen.",
+          "description": "Wiederkehrende Schmerzen, Steifigkeit oder eingeschränkte Beweglichkeit können den Alltag deutlich beeinträchtigen. Für die Auswahl einer ergänzenden Behandlung werden Verlauf und mögliche Belastungsfaktoren einbezogen.",
+          "therapySlugs": [
+            "ohrakupunktur",
+            "fussreflexzonentherapie",
+            "komplex-homoeopathie"
+          ],
+          "seoTitle": "Rücken- & Nackenschmerzen in Hamburg",
+          "image": "/xray/xray-bewegungsapparat.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Schulterbeschwerden & Verspannungen",
+          "slug": "schulterbeschwerden-verspannungen",
+          "seoTitle": "Schulterbeschwerden und Verspannungen",
+          "metaDescription": "Schulterbeschwerden und muskuläre Verspannungen individuell betrachten: Lokalisation, Verlauf und ergänzende Verfahren in Hamburg.",
+          "description": "Muskuläre Spannung im Schulter-Nacken-Bereich kann sich als Druck, Ziehen oder eingeschränkte Beweglichkeit zeigen. Die Behandlung wird an Lokalisation und Beschwerdeverlauf angepasst.",
+          "therapySlugs": [
+            "ohrakupunktur",
+            "fussreflexzonentherapie"
+          ],
+          "image": "/xray/xray-bewegungsapparat.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Funktionelle Gelenkbeschwerden",
+          "slug": "funktionelle-gelenkbeschwerden",
+          "seoTitle": "Gelenkbeschwerden in Hamburg",
+          "metaDescription": "Funktionelle Gelenkbeschwerden sorgfältig einordnen: ärztliche Abklärung, persönlicher Verlauf und ergänzende Begleitung in Hamburg.",
+          "description": "Gelenkbeschwerden können sehr unterschiedliche Ursachen haben. Neue, entzündliche oder unklare Beschwerden sollten ärztlich eingeordnet werden, bevor eine ergänzende Behandlung beginnt.",
+          "therapySlugs": [
+            "ohrakupunktur",
+            "pflanzenheilkunde"
+          ],
+          "image": "/xray/xray-bewegungsapparat.webp",
+          "noIndex": false
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

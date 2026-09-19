@@ -1,0 +1,179 @@
+{
+  "id": "frauenheilkunde-unterbauch",
+  "label": "Frauenheilkunde & Unterbauch",
+  "shortLabel": "Unterbauch",
+  "description": "Beschwerden im Unterbauch können sich rund um Zyklus, Hormone, Gebärmutter, Eierstöcke, Blase oder Vaginalbereich zeigen. Wählen Sie den Bereich, der Ihrem Anliegen am nächsten kommt.",
+  "marker": {
+    "targetX": 51,
+    "targetY": 56,
+    "calloutX": 4,
+    "calloutY": 65,
+    "side": "left",
+    "zoomScale": 1.58
+  },
+  "groups": [
+    {
+      "id": "gebaermutter-zyklus",
+      "label": "Gebärmutter & Zyklus",
+      "topics": [
+        {
+          "title": "Menstruations- & Zyklusbeschwerden",
+          "slug": "menstruations-zyklusbeschwerden",
+          "seoTitle": "Menstruations- und Zyklusbeschwerden",
+          "metaDescription": "Schmerzhafte, unregelmäßige oder ausbleibende Menstruation: Zyklus, Blutung und Begleitsymptome ganzheitlich in Hamburg betrachten.",
+          "description": "Schmerzhafte, unregelmäßige oder ausbleibende Menstruation kann unterschiedliche Ursachen haben. Zyklusverlauf, Blutung, Schmerzen und weitere Begleitsymptome werden gemeinsam betrachtet.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "ohrakupunktur",
+            "fussreflexzonentherapie",
+            "pflanzenheilkunde"
+          ],
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        },
+        {
+          "title": "PMS",
+          "slug": "pms-praemenstruelles-syndrom",
+          "seoTitle": "PMS und prämenstruelle Beschwerden",
+          "metaDescription": "PMS mit körperlichen und emotionalen Beschwerden vor der Menstruation: Zeitpunkt, Verlauf und Stärke individuell in Hamburg einordnen.",
+          "description": "Körperliche und emotionale Beschwerden in den Tagen vor der Menstruation können sich etwa als Brustspannen, Kopfschmerzen, Reizbarkeit oder Stimmungsschwankungen zeigen. Entscheidend sind Zeitpunkt, Verlauf und Stärke der Beschwerden.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "ohrakupunktur",
+            "pflanzenheilkunde"
+          ],
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Endometriose & Myome",
+          "slug": "endometriose-myome",
+          "metaDescription": "Endometriose und Myome ergänzend naturheilkundlich begleiten – abgestimmt auf das persönliche Beschwerdebild und die gynäkologische Behandlung.",
+          "description": "Bei diagnostizierter Endometriose oder Myomen kann eine naturheilkundliche Begleitung ergänzend zur gynäkologischen Behandlung erfolgen. Im Mittelpunkt stehen das persönliche Beschwerdebild und die Belastung im Alltag.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "ohrakupunktur"
+          ],
+          "careNote": "Eine gynäkologische Diagnostik und Mitbetreuung bleibt wichtig.",
+          "seoTitle": "Endometriose & Myome in Hamburg",
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        }
+      ]
+    },
+    {
+      "id": "eierstoecke-hormone",
+      "label": "Eierstöcke & Hormone",
+      "topics": [
+        {
+          "title": "PCOS & funktionelle Eierstockzysten",
+          "slug": "pcos-funktionelle-eierstockzysten",
+          "seoTitle": "PCOS und funktionelle Eierstockzysten",
+          "metaDescription": "PCOS und funktionelle Eierstockzysten ergänzend begleiten: Zyklus, Haut, Haare und hormonelle Situation individuell betrachten.",
+          "description": "Bei diagnostiziertem PCOS oder funktionellen Eierstockzysten können Zyklus, Haut, Haare und die hormonelle Situation gemeinsam betrachtet werden. Die Begleitung wird individuell abgestimmt.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde"
+          ],
+          "careNote": "Eine gynäkologische Diagnostik und Mitbetreuung bleibt wichtig.",
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Hormonelle Dysbalancen",
+          "slug": "hormonelle-dysbalancen",
+          "metaDescription": "Hormonell geprägte Beschwerden rund um Zyklus, Haut, Haare und Lebensphasen individuell und sorgfältig in Hamburg einordnen.",
+          "description": "Hormonell geprägte Beschwerden können sich im Zyklus, an Haut und Haaren sowie in Übergangsphasen zeigen. Welche Faktoren tatsächlich relevant sind, wird individuell geprüft.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "ohrakupunktur"
+          ],
+          "seoTitle": "Hormonelle Dysbalancen in Hamburg",
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Kinderwunsch",
+          "slug": "kinderwunsch",
+          "seoTitle": "Naturheilkundliche Begleitung bei Kinderwunsch",
+          "metaDescription": "Naturheilkundliche Begleitung bei Kinderwunsch in Hamburg: Zyklus, bekannte Diagnosen und Lebenssituation ohne Erfolgsversprechen betrachten.",
+          "description": "Die naturheilkundliche Begleitung bei Kinderwunsch richtet sich nach Zyklus, bekannten Diagnosen, Lebenssituation und bereits erfolgten Untersuchungen. Sie versteht sich als Ergänzung, nicht als Erfolgsversprechen.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "ohrakupunktur",
+            "komplex-homoeopathie"
+          ],
+          "careNote": "Eine ärztliche oder gynäkologische Abklärung wird dadurch nicht ersetzt.",
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Beschwerden nach Absetzen der Pille",
+          "slug": "beschwerden-nach-absetzen-der-pille",
+          "seoTitle": "Beschwerden nach Absetzen der Pille",
+          "metaDescription": "Veränderungen von Zyklus, Haut, Haaren oder Wohlbefinden nach Absetzen der Pille individuell und ganzheitlich in Hamburg betrachten.",
+          "description": "Nach dem Absetzen der Pille können sich Zyklus, Haut, Haare oder Wohlbefinden verändern. Die weitere Entwicklung und mögliche Einflussfaktoren werden in Ruhe betrachtet.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde"
+          ],
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Wechseljahresbeschwerden",
+          "slug": "wechseljahresbeschwerden",
+          "metaDescription": "Wechseljahresbeschwerden wie Hitzewallungen, Schlafprobleme und innere Unruhe individuell und naturheilkundlich in Hamburg begleiten.",
+          "description": "Hitzewallungen, Schlafprobleme, innere Unruhe, Stimmungsschwankungen und weitere körperliche Veränderungen können die Wechseljahre begleiten. Die Behandlung orientiert sich an Ihren vorrangigen Beschwerden.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "ohrakupunktur",
+            "fussreflexzonentherapie",
+            "pflanzenheilkunde",
+            "komplex-homoeopathie"
+          ],
+          "seoTitle": "Wechseljahresbeschwerden in Hamburg",
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        }
+      ]
+    },
+    {
+      "id": "blase-vaginalbereich",
+      "label": "Blase & Vaginalbereich",
+      "topics": [
+        {
+          "title": "Wiederkehrende Beschwerden im Vaginalbereich",
+          "slug": "wiederkehrende-beschwerden-vaginalbereich",
+          "seoTitle": "Wiederkehrende vaginale Beschwerden",
+          "metaDescription": "Wiederkehrende Beschwerden im Vaginalbereich nach gynäkologischer Abklärung hormonell und mikrobiologisch mitbetrachten.",
+          "description": "Wiederkehrendes Brennen, Jucken oder ein verändertes Empfinden im Vaginalbereich kann verschiedene Ursachen haben. Nach gynäkologischer Abklärung können hormonelle und mikrobiologische Faktoren mitbetrachtet werden.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "mikrobiologische-therapie"
+          ],
+          "careNote": "Akute oder unklare Beschwerden sollten gynäkologisch abgeklärt werden.",
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Funktionelle Blasenbeschwerden",
+          "slug": "funktionelle-blasenbeschwerden",
+          "metaDescription": "Funktionelle Blasenbeschwerden nach ärztlicher Abklärung ergänzend begleiten: Harndrang und empfindliches Blasengefühl einordnen.",
+          "description": "Häufiger Harndrang oder ein empfindliches Blasengefühl kann auch ohne akute Infektion bestehen. Voraussetzung für eine ergänzende Begleitung ist die ärztliche Abklärung möglicher Ursachen.",
+          "therapySlugs": [
+            "ohrakupunktur"
+          ],
+          "careNote": "Schmerzen, Fieber oder Blut im Urin erfordern eine zeitnahe ärztliche Abklärung.",
+          "seoTitle": "Funktionelle Blasenbeschwerden in Hamburg",
+          "image": "/xray/xray-frauenheilkunde-unterbauch.webp",
+          "noIndex": false
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

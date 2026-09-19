@@ -1,0 +1,50 @@
+{
+  "type": "article",
+  "topicSlugs": ["naturheilkunde"],
+  "imagePosition": "center bottom",
+  "imageScale": 1,
+  "slug": "fussreflexzonentherapie-beruehrung-und-grenzen",
+  "title": "Fußreflexzonentherapie: Berührung, Ablauf und Grenzen",
+  "teaser": "Was bei einer manuellen Anwendung am Fuß geschieht und weshalb persönliche Wahrnehmung und medizinische Einordnung zusammengehören.",
+  "image": "/wordpress images/Fussreflexzonentheapie-Homepage.webp",
+  "imageAlt": "Zwei Hände üben bei einer manuellen Anwendung Druck auf eine Fußsohle aus.",
+  "publishedAt": "2026-09-19",
+  "categories": [
+    "Therapieverfahren",
+    "Fußreflexzonentherapie"
+  ],
+  "serviceSlugs": [
+    "fussreflexzonentherapie"
+  ],
+  "complaintSlugs": [
+    "stress-innere-unruhe",
+    "schulterbeschwerden-verspannungen",
+    "erschoepfung"
+  ],
+  "relatedArticleSlugs": [
+    "ohrakupunktur-was-sie-vor-dem-ersten-termin-wissen-sollten",
+    "wechseljahre-veraenderungen-in-ruhe-einordnen"
+  ],
+  "sources": [
+    "https://www.alscher-scheunemann.de/therapieverfahren/fussreflexzonen-therapie/",
+    "https://www.nccih.nih.gov/health/reflexology"
+  ],
+  "body": "Berührung wird sehr unterschiedlich erlebt. Was eine Person als angenehm empfindet, kann für eine andere zu intensiv sein. Deshalb gehört zur Fußreflexzonentherapie ein Gespräch darüber, was Sie erwarten und was sich für Sie stimmig anfühlt. Eine Behandlung muss sich an Ihrer Rückmeldung orientieren.\n\n## Was mit Reflexzonen gemeint ist\n\nBei der Fußreflexzonentherapie wird mit den Händen Druck auf ausgewählte Bereiche des Fußes ausgeübt. Das traditionelle Reflexzonenmodell ordnet diesen Bereichen andere Körperregionen zu. Dabei können unterschiedliche Druckstärken eingesetzt werden.\n\nDie Annahme, über eine bestimmte Fußzone gezielt ein zugeordnetes Organ behandeln zu können, ist wissenschaftlich nicht belegt. Auch aus einer empfindlichen Stelle am Fuß lässt sich keine verlässliche Organdiagnose ableiten. Die [Einordnung des NCCIH zur Reflexzonentherapie](https://www.nccih.nih.gov/health/reflexology) beschreibt die begrenzte Forschungslage.\n\nFür eine informierte Entscheidung ist diese Unterscheidung hilfreich: Eine persönliche Erfahrung mit Berührung sagt zunächst etwas über das eigene Erleben aus. Sie beweist keine Behandlung einer zugrunde liegenden Erkrankung.\n\n## Raum für Ihre Rückmeldung\n\nIm Vorgespräch können Sie erzählen, weshalb Sie sich für das Verfahren interessieren. Vielleicht wünschen Sie sich eine ruhige Anwendung oder möchten wissen, wie sich die manuelle Arbeit am Fuß von anderen Angeboten unterscheidet.\n\nFragen Sie vorab, wie die Anwendung gestaltet wird und wie Sie währenddessen Rückmeldung geben können. Sie dürfen äußern, dass ein Druck unangenehm ist, eine Position nicht passt oder Sie eine Pause brauchen. Dafür müssen Sie keinen Schmerz aushalten und keine bestimmte Reaktion erreichen.\n\nEbenso wichtig ist die Möglichkeit, eine Anwendung abzulehnen. Wenn Sie Berührung an den Füßen nicht mögen, gehört das genauso in das Gespräch wie frühere positive Erfahrungen. Ihre Entscheidung braucht keine Rechtfertigung.\n\n## Vorbereitung ohne besondere Vorkenntnisse\n\nSie müssen keine Reflexzonen kennen und auch keine Selbstmassage erlernen. Hilfreicher ist eine kurze Übersicht über Ihr Anliegen, vorhandene Diagnosen und laufende Behandlungen. Sprechen Sie Beschwerden an den Füßen sowie kürzlich erfolgte Eingriffe oder Verletzungen ausdrücklich an, damit die Eignung vorab geklärt werden kann.\n\nNotieren Sie außerdem, welche Frage für Sie am wichtigsten ist. Das könnte die Verträglichkeit sein, die Einbindung in eine bereits bestehende Behandlung oder der zeitliche und finanzielle Rahmen. So bleibt der Termin an Ihrem tatsächlichen Bedarf ausgerichtet.\n\n## Erwartungen gemeinsam prüfen\n\nEine ergänzende Anwendung sollte keine ärztliche Abklärung ersetzen. Besprechen Sie, woran Sie eine für Sie hilfreiche Begleitung erkennen würden und wann Sie gemeinsam Bilanz ziehen möchten. Auch die Entscheidung, eine Methode nicht fortzusetzen, ist ein mögliches Ergebnis.\n\nMehr zum Angebot lesen Sie unter [Fußreflexzonentherapie](/therapieverfahren/fussreflexzonentherapie). Wenn Sie zunächst klären möchten, ob ein persönliches Gespräch passt, können Sie [die Praxis kontaktieren](/kontakt).",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Nutzungsrechte vor Veröffentlichung mit der Praxisinhaberin prüfen.",
+  "seo": {
+    "title": "Fußreflexzonentherapie: Ablauf und Grenzen verstehen",
+    "description": "Fußreflexzonentherapie verständlich erklärt: manuelle Anwendung, persönliche Rückmeldung und wissenschaftliche Grenzen des Reflexzonenmodells.",
+    "ogImage": "/wordpress images/Fussreflexzonentheapie-Homepage.webp",
+    "noIndex": false
+  },
+  "review": {
+    "status": "published",
+    "medicalReviewRequired": true,
+    "reviewedBy": "Veröffentlichung auf ausdrückliche Nutzerfreigabe im Projektauftrag",
+    "lastReviewedAt": "2026-09-19"
+  },
+  "wordpress": {
+    "originalUrl": "https://www.alscher-scheunemann.de/therapieverfahren/fussreflexzonen-therapie/"
+  }
+}

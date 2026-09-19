@@ -1,0 +1,1051 @@
+backend:
+  name: proxy
+  proxy_url: /__cms/api/v1
+  branch: main
+locale: de
+publish_mode: simple
+media_folder: apps/web/public/uploads
+public_folder: /uploads
+site_url: 'http://localhost:3000'
+display_url: 'http://localhost:3000'
+logo_url: /favicon.svg
+show_preview_links: true
+collections:
+  - name: pages
+    label: Seiten
+    description: >-
+      Texte ändern und lokal speichern. Die Website im zweiten Tab zeigt den gespeicherten Stand. Eine Online-Veröffentlichung erfolgt hier
+      nicht.
+    delete: false
+    files:
+      - name: home
+        label: Startseite
+        file: apps/web/src/content/editable/home.json
+        format: json
+        preview_path: /
+        fields:
+          - &ref_0
+            name: seo
+            label: Suchmaschinen und Teilen
+            widget: object
+            collapsed: true
+            fields:
+              - name: title
+                label: SEO-Titel
+                widget: string
+                hint: Eindeutig und aussagekräftig. Der Praxisname wird automatisch ergänzt.
+              - name: description
+                label: Meta-Beschreibung
+                widget: text
+                hint: 'Kurze, eigenständige Beschreibung dieser Seite. Keine Heilversprechen.'
+              - name: image
+                label: Vorschaubild
+                widget: image
+                allow_multiple: false
+              - name: noIndex
+                label: Seite von der Indexierung ausschließen
+                widget: boolean
+                default: false
+          - name: hero
+            label: Kopfbereich
+            widget: object
+            fields:
+              - name: title
+                label: Hauptüberschrift
+                widget: string
+              - name: appointmentLabel
+                label: Terminbutton
+                widget: string
+              - name: secondaryLabel
+                label: Beschwerdenbutton
+                widget: string
+              - name: trustSignals
+                label: Angaben zur Erfahrung
+                hint: Nur nachgewiesene und fachlich freigegebene Angaben verwenden.
+                widget: list
+                field:
+                  name: text
+                  label: Angabe
+                  widget: string
+          - name: values
+            label: Werte-Leiste
+            widget: object
+            fields:
+              - name: items
+                label: Werte
+                widget: list
+                collapsed: true
+                fields:
+                  - name: icon
+                    label: Symbol
+                    widget: select
+                    options:
+                      - heart
+                      - plant
+                      - time
+                      - location
+                  - name: text
+                    label: Text
+                    widget: text
+                min: 4
+                max: 4
+          - name: about
+            label: Persönlicher Vorstellungsbereich
+            widget: object
+            fields:
+              - name: heading
+                label: Überschrift
+                widget: text
+              - name: paragraphs
+                label: Absätze
+                widget: list
+                field:
+                  name: text
+                  label: Text
+                  widget: text
+              - name: image
+                label: Portrait
+                widget: image
+                allow_multiple: false
+              - name: imageAlt
+                label: Bildbeschreibung
+                widget: string
+              - name: imagePosition
+                label: Bildausschnitt
+                widget: string
+              - name: decorationImage
+                label: Dekoratives Pflanzenmotiv
+                widget: image
+                allow_multiple: false
+              - name: buttonLabel
+                label: Buttonbeschriftung
+                widget: string
+              - name: buttonHref
+                label: Buttonziel
+                widget: string
+                pattern:
+                  - '^/(?!/)[^\s]*$'
+                  - Bitte einen internen Pfad wie /kontakt angeben.
+              - name: imageSource
+                label: Bildquelle und Bearbeitung
+                widget: text
+                required: false
+          - name: complaints
+            label: Beschwerdekarten
+            widget: object
+            fields:
+              - name: heading
+                label: Überschrift
+                widget: string
+              - name: items
+                label: Karten
+                widget: list
+                collapsed: true
+                fields:
+                  - name: title
+                    label: Titel
+                    widget: string
+                  - name: text
+                    label: Beschreibung
+                    widget: text
+                  - name: href
+                    label: Linkziel
+                    widget: string
+                    pattern:
+                      - '^/(?!/)[^\s]*$'
+                      - Bitte einen internen Pfad wie /kontakt angeben.
+                  - name: image
+                    label: Bild
+                    widget: image
+                    allow_multiple: false
+                  - name: imageAlt
+                    label: Bildbeschreibung
+                    widget: string
+                  - name: imagePosition
+                    label: Bildausschnitt
+                    widget: string
+                  - name: imageScale
+                    label: Bildvergrößerung
+                    widget: number
+                    value_type: float
+                    min: 1
+                    max: 3
+                    step: 0.05
+                    default: 1
+                summary: '{{fields.title}}'
+              - name: buttonLabel
+                label: Buttonbeschriftung
+                widget: string
+              - name: buttonHref
+                label: Buttonziel
+                widget: string
+                pattern:
+                  - '^/(?!/)[^\s]*$'
+                  - Bitte einen internen Pfad wie /kontakt angeben.
+          - name: articles
+            label: Artikelabschnitt
+            widget: object
+            collapsed: true
+            fields:
+              - name: enabled
+                label: Abschnitt anzeigen
+                widget: boolean
+                default: true
+              - name: heading
+                label: Überschrift
+                widget: string
+              - name: description
+                label: Beschreibung
+                widget: text
+                required: false
+              - name: articleSlugs
+                hint: Nur bei eigener Auswahl verwenden. Für Aktuelles oder Themenbereiche leer lassen; angezeigt werden passende freigegebene Artikel.
+                label: Artikel auswählen
+                widget: relation
+                collection: articles
+                search_fields: [title, slug]
+                value_field: slug
+                display_fields: [title]
+                multiple: true
+                required: false
+              - name: source
+                label: Welche Beiträge anzeigen?
+                widget: select
+                default: news
+                options:
+                  - { label: Aktuelles, value: news }
+                  - { label: Neueste Artikel, value: latest }
+                  - { label: Ein Themenbereich, value: topic }
+                  - { label: Eigene Auswahl, value: selection }
+              - name: topicSlug
+                label: Themenbereich
+                widget: relation
+                collection: article-topics
+                search_fields: [title, slug]
+                value_field: slug
+                display_fields: [title]
+                required: false
+                hint: Gilt für die Auswahl Ein Themenbereich.
+              - &article_layout
+                name: layout
+                label: Darstellung
+                widget: select
+                default: cards
+                options:
+                  - { label: Karten, value: cards }
+                  - { label: Kompakte Liste, value: list }
+                  - { label: Hervorgehobener Beitrag, value: featured }
+              - name: limit
+                label: Maximale Anzahl
+                widget: number
+                value_type: int
+                min: 1
+                max: 6
+                default: 3
+          - name: statement
+            label: Leitgedanke
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: text
+              - name: backgroundImage
+                label: Hintergrundbild
+                widget: image
+                allow_multiple: false
+          - &ref_1
+            name: review
+            label: Prüfung und Freigabe
+            widget: object
+            collapsed: true
+            hint: >-
+              Lokal werden auch Entwürfe angezeigt. Indexierbare Builds erfordern freigegebene Inhalte mit Prüfname und Datum. Nach
+              Änderungen erneut prüfen.
+            fields:
+              - name: status
+                label: Inhaltsstatus
+                widget: select
+                default: review
+                options:
+                  - label: Entwurf
+                    value: draft
+                  - label: In Prüfung
+                    value: review
+                  - label: Freigegeben
+                    value: published
+                  - label: Archiviert
+                    value: archived
+              - name: medicalReviewRequired
+                label: Fachliche Prüfung erforderlich
+                widget: boolean
+                default: true
+              - name: reviewedBy
+                label: Geprüft von
+                widget: string
+                required: false
+              - name: lastReviewedAt
+                label: Prüfdatum
+                widget: string
+                required: false
+                hint: JJJJ-MM-TT
+                pattern:
+                  - '^$|^\d{4}-\d{2}-\d{2}$'
+                  - Bitte das Datum als JJJJ-MM-TT eintragen.
+      - name: blog-page
+        label: Blogübersicht
+        file: apps/web/src/content/editable/blog-page.json
+        format: json
+        preview_path: /blog
+        fields:
+          - name: eyebrow
+            label: Rubrik
+            widget: string
+          - name: title
+            label: Überschrift
+            widget: string
+          - name: lead
+            label: Einleitung
+            widget: text
+          - name: news
+            label: Aktuelles
+            widget: object
+            fields:
+              - { name: enabled, label: Abschnitt anzeigen, widget: boolean, default: true }
+              - { name: heading, label: Überschrift, widget: string, default: Aktuelles }
+              - { name: description, label: Beschreibung, widget: text }
+              - *article_layout
+              - { name: limit, label: Maximale Anzahl, widget: number, value_type: int, min: 1, max: 6, default: 3 }
+          - { name: newsEmpty, label: Hinweis ohne aktuelle Beiträge, widget: text }
+          - { name: topicsTitle, label: Überschrift der Themenbereiche, widget: string }
+          - { name: topicsDescription, label: Einleitung der Themenbereiche, widget: text }
+          - { name: allArticlesTitle, label: Überschrift aller Artikel, widget: string }
+          - name: emptyTitle
+            label: Überschrift ohne Artikel
+            widget: string
+          - name: emptyDescription
+            label: Beschreibung ohne Artikel
+            widget: text
+          - *ref_0
+          - *ref_1
+      - name: about
+        label: Über mich
+        file: apps/web/src/content/editable/about.json
+        format: json
+        preview_path: /ueber-mich
+        fields:
+          - name: title
+            label: Hauptüberschrift
+            widget: string
+          - name: eyebrow
+            label: Untertitel
+            widget: string
+          - name: lead
+            label: Einleitung
+            widget: text
+          - name: paragraphs
+            label: Weitere Absätze
+            widget: list
+            field:
+              name: text
+              label: Text
+              widget: text
+          - name: portrait
+            label: Portrait
+            widget: object
+            fields:
+              - name: src
+                label: Bild
+                widget: image
+                allow_multiple: false
+              - name: alt
+                label: Bildbeschreibung
+                widget: string
+              - name: objectPosition
+                label: Bildausschnitt
+                widget: string
+              - name: sourceNote
+                label: Bildquelle und Bearbeitung
+                widget: text
+                required: false
+          - name: quote
+            label: Leitgedanke beim Portrait
+            widget: text
+          - name: values
+            label: Werte
+            widget: list
+            collapsed: true
+            fields:
+              - name: icon
+                label: Symbol
+                widget: select
+                options:
+                  - heart
+                  - person
+                  - leaf
+                  - time
+              - name: title
+                label: Titel
+                widget: string
+              - name: text
+                label: Beschreibung
+                widget: text
+            min: 4
+            max: 4
+            summary: '{{fields.title}}'
+          - name: sections
+            label: Mein Weg
+            widget: list
+            collapsed: true
+            fields:
+              - name: heading
+                label: Überschrift
+                widget: string
+              - name: body
+                label: Text
+                widget: text
+            summary: '{{fields.heading}}'
+          - name: priorities
+            label: Was mir wichtig ist
+            widget: object
+            fields:
+              - name: heading
+                label: Überschrift
+                widget: string
+              - name: items
+                label: Punkte
+                widget: list
+                field:
+                  name: text
+                  label: Text
+                  widget: text
+          - name: cta
+            label: Abschlussleiste
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: text
+              - name: label
+                label: Linkbeschriftung
+                widget: string
+              - name: href
+                label: Linkziel
+                widget: string
+                pattern:
+                  - '^/(?!/)[^\s]*$'
+                  - Bitte einen internen Pfad wie /kontakt angeben.
+          - *ref_0
+          - *ref_1
+      - name: contact
+        label: Kontakt
+        file: apps/web/src/content/editable/contact.json
+        format: json
+        preview_path: /kontakt
+        fields:
+          - &ref_2
+            name: eyebrow
+            label: Rubrik
+            widget: string
+          - &ref_3
+            name: title
+            label: Hauptüberschrift
+            widget: string
+          - &ref_4
+            name: lead
+            label: Einleitung
+            widget: text
+          - name: privacyHeading
+            label: Überschrift zum Datenschutz
+            widget: string
+          - name: privacyText
+            label: Hinweis zum Datenschutz
+            widget: text
+          - *ref_0
+          - *ref_1
+      - name: services-page
+        label: Therapieverfahren – Übersicht
+        file: apps/web/src/content/editable/services-page.json
+        format: json
+        preview_path: /therapieverfahren
+        fields:
+          - *ref_2
+          - *ref_3
+          - *ref_4
+          - *ref_0
+          - *ref_1
+      - name: complaints-page
+        label: Beschwerden – Übersicht
+        file: apps/web/src/content/editable/complaints-page.json
+        format: json
+        preview_path: /beschwerden
+        fields:
+          - name: eyebrow
+            label: Rubrik
+            widget: string
+          - name: title
+            label: Hauptüberschrift
+            widget: string
+          - name: lead
+            label: Einleitung
+            widget: text
+          - name: navigation
+            label: Körpernavigation
+            widget: object
+            fields:
+              - name: regionsLabel
+                label: Navigationsbezeichnung
+                widget: string
+              - name: figureAlt
+                label: Bildbeschreibung der Frau
+                widget: string
+              - name: figureCaption
+                label: Hinweis zur Bedienung
+                widget: text
+              - name: selectLabel
+                label: Regionsauswahl
+                widget: string
+              - name: openDetailLabel
+                label: Detailansicht öffnen
+                widget: string
+              - name: backgroundImage
+                label: Sanftes Hintergrundmotiv
+                widget: image
+                allow_multiple: false
+                required: false
+                hint: Optional. Leer lassen für einen ruhigen, einfarbigen Hintergrund.
+          - name: search
+            label: Suche
+            widget: object
+            fields:
+              - name: label
+                label: Suchfeld
+                widget: string
+              - name: placeholder
+                label: Suchbeispiel
+                widget: string
+              - name: clearLabel
+                label: Suche leeren
+                widget: string
+              - name: resultsLabel
+                label: Trefferbezeichnung
+                widget: string
+              - name: resultsTitle
+                label: Suchergebnis-Titel
+                widget: string
+              - name: resultsDescription
+                label: Suchergebnis-Beschreibung
+                widget: text
+          - name: detail
+            label: Detailansicht
+            widget: object
+            fields:
+              - name: label
+                label: Detailbezeichnung
+                widget: string
+              - name: closeLabel
+                label: Zur Gesamtansicht
+                widget: string
+              - name: caption
+                label: Hinweis zur Darstellung
+                widget: text
+              - name: innerAreasLabel
+                label: Innere Bereiche
+                widget: string
+          - name: cards
+            label: Beschwerde-Einträge
+            widget: object
+            fields:
+              - name: detailLinkLabel
+                label: Detail-Link
+                widget: string
+              - name: therapiesLabel
+                label: Verfahrenüberschrift
+                widget: string
+          - name: empty
+            label: Suche ohne Treffer
+            widget: object
+            fields:
+              - name: title
+                label: Überschrift
+                widget: string
+              - name: description
+                label: Beschreibung
+                widget: text
+              - name: resetLabel
+                label: Zurücksetzen
+                widget: string
+          - name: bubbles
+            label: Blasen um die Figur
+            widget: list
+            collapsed: true
+            fields:
+              - name: regionId
+                widget: hidden
+              - name: title
+                label: Titel
+                widget: string
+              - name: examples
+                label: Beispiele
+                widget: text
+            allow_add: false
+            min: 7
+            max: 7
+            summary: '{{fields.title}}'
+          - name: cta
+            label: Kontaktabschnitt
+            widget: object
+            fields:
+              - name: eyebrow
+                label: Rubrik
+                widget: string
+              - name: title
+                label: Überschrift
+                widget: string
+              - name: description
+                label: Beschreibung
+                widget: text
+              - name: primaryLabel
+                label: Terminbutton
+                widget: string
+              - name: secondaryLabel
+                label: Verfahrenbutton
+                widget: string
+          - name: medicalNote
+            label: Medizinischer Hinweis
+            widget: object
+            fields:
+              - name: title
+                label: Überschrift
+                widget: string
+              - name: text
+                label: Hinweis
+                widget: text
+          - *ref_0
+          - *ref_1
+  - name: articles
+    label: Blogartikel
+    label_singular: Artikel
+    description: Artikel anlegen, Themen und passende Seiten auswählen. In Prüfung ist zusätzlich in der lokalen Website-Vorschau sichtbar. Nur freigegebene Artikel werden veröffentlicht.
+    folder: apps/web/src/content/editable/articles
+    format: json
+    extension: json
+    create: true
+    delete: false
+    identifier_field: title
+    slug: '{{fields.slug}}'
+    preview_path: '/blog/{{fields.slug}}'
+    summary: '{{title}} · {{review.status}}'
+    sortable_fields: [title, publishedAt]
+    fields:
+      - name: type
+        widget: hidden
+        default: article
+      - name: title
+        label: Titel
+        widget: string
+      - name: slug
+        label: URL-Kürzel
+        widget: string
+        hint: Nach dem ersten Speichern unverändert lassen. Eine spätere URL-Änderung benötigt eine Weiterleitung.
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Kleine Buchstaben, Ziffern und Bindestriche verwenden, zum Beispiel mein-artikel.']
+      - name: teaser
+        label: Kurzbeschreibung der Artikelkarte
+        widget: text
+      - name: image
+        label: Artikelbild
+        widget: image
+        allow_multiple: false
+      - name: imageAlt
+        label: Bildbeschreibung
+        widget: string
+        required: false
+        default: ''
+        hint: Leer lassen, wenn das Bild ausschließlich dekorativ ist.
+      - name: imageSource
+        label: Bildquelle und Urheber
+        widget: string
+        required: false
+      - name: imagePermission
+        label: Nutzungsfreigabe des Bildes
+        widget: text
+        required: false
+      - name: publishedAt
+        label: Artikeldatum
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: DD.MM.YYYY
+        time_format: false
+        hint: Originaldatum aus WordPress oder Datum des neuen Artikels. Keine automatische zeitgesteuerte Veröffentlichung.
+      - name: categories
+        label: Freie Schlagwörter
+        widget: list
+        default: []
+        required: false
+        field: { name: topic, label: Thema, widget: string }
+      - name: topicSlugs
+        label: Themenbereiche zuordnen
+        widget: relation
+        collection: article-topics
+        search_fields: [title, slug]
+        value_field: slug
+        display_fields: [title]
+        multiple: true
+        required: false
+        default: []
+        hint: Ein Artikel kann zu mehreren Themen gehören. Neue Bereiche unter Themenbereiche anlegen und freigeben.
+      - name: isNews
+        label: In Aktuelles anzeigen
+        widget: boolean
+        default: false
+        hint: Für Neuigkeiten und aktuelle Hinweise aktivieren. Die Sortierung erfolgt nach Artikeldatum. Themenzuordnungen bleiben bestehen.
+      - name: imagePosition
+        label: Bildausschnitt
+        widget: string
+        default: center
+        required: false
+        hint: Zum Beispiel center oder center bottom.
+      - name: imageScale
+        label: Bildvergrößerung
+        widget: number
+        value_type: float
+        default: 1
+        min: 1
+        max: 2
+        step: 0.05
+        required: false
+      - name: serviceSlugs
+        label: Zugeordnete Therapieverfahren
+        widget: relation
+        collection: services
+        search_fields: [title, slug]
+        value_field: slug
+        display_fields: [title]
+        multiple: true
+        required: false
+        default: []
+        hint: Der Artikel erscheint automatisch im Artikelbereich dieser Therapieseiten. Mehrere Verfahren sind möglich.
+      - name: complaintSlugs
+        label: Zugeordnete Beschwerdeseiten
+        widget: relation
+        collection: complaints
+        search_fields: [groups.*.topics.*.title, groups.*.topics.*.slug]
+        value_field: groups.*.topics.*.slug
+        display_fields: [groups.*.topics.*.title]
+        options_length: 100
+        multiple: true
+        required: false
+        default: []
+        hint: Optional. Der Artikel erscheint auch im Artikelbereich dieser Beschwerdeseiten.
+      - name: relatedArticleSlugs
+        label: Weiterführende Artikel
+        widget: relation
+        collection: articles
+        search_fields: [title, slug]
+        value_field: slug
+        display_fields: [title]
+        multiple: true
+        required: false
+        default: []
+        hint: Optional zuerst empfohlene Beiträge. Weitere passende Artikel werden anhand der Seitenzuordnungen ergänzt. Der aktuelle Artikel wird ausgelassen.
+      - name: author
+        label: Autorin oder Autor
+        widget: string
+        required: false
+      - name: body
+        label: Artikelinhalt
+        widget: markdown
+        hint: Überschriften ab Ebene 2 verwenden. WordPress-HTML beim Import in Markdown umwandeln; HTML und Shortcodes werden nicht ausgeführt.
+      - name: sources
+        label: Quellen
+        widget: list
+        required: false
+        field: { name: source, label: Quellenangabe oder URL, widget: string }
+      - name: seo
+        label: Suchmaschinen und Teilen
+        widget: object
+        collapsed: true
+        fields:
+          - { name: title, label: SEO-Titel, widget: string }
+          - { name: description, label: Meta-Beschreibung, widget: text }
+          - name: ogImage
+            label: Abweichendes Vorschaubild
+            widget: image
+            required: false
+            allow_multiple: false
+            hint: Leer lassen, um das Artikelbild zu verwenden.
+          - { name: noIndex, label: Von der Indexierung ausschließen, widget: boolean, default: false }
+      - name: wordpress
+        label: WordPress-Herkunft
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - { name: id, label: Ursprüngliche Beitrags-ID, widget: number, value_type: int, required: false }
+          - { name: originalUrl, label: Ursprüngliche URL, widget: string, required: false }
+      - <<: *ref_1
+        hint: Nur Freigegeben wird veröffentlicht. In Prüfung erscheint im regulären Layout der lokalen Vorschau. Bei fachlicher Prüfung sind Prüfname und gültiges Prüfdatum erforderlich. Nach Änderungen erneut prüfen.
+        fields:
+          - name: status
+            label: Inhaltsstatus
+            widget: select
+            default: draft
+            options:
+              - { label: Entwurf, value: draft }
+              - { label: In Prüfung, value: review }
+              - { label: Freigegeben, value: published }
+              - { label: Archiviert, value: archived }
+          - { name: medicalReviewRequired, label: Fachliche Prüfung erforderlich, widget: boolean, default: true }
+          - { name: reviewedBy, label: Geprüft von, widget: string, required: false }
+          - name: lastReviewedAt
+            label: Prüfdatum
+            widget: string
+            required: false
+            hint: JJJJ-MM-TT
+            pattern: ['^$|^\d{4}-\d{2}-\d{2}$', Bitte das Datum als JJJJ-MM-TT eintragen.]
+  - name: article-topics
+    label: Themenbereiche
+    label_singular: Themenbereich
+    description: Themenbereiche anlegen, benennen und sortieren. Anschließend in Blogartikeln auswählen. Freigegebene Themen erhalten automatisch eine eigene Seite.
+    folder: apps/web/src/content/editable/article-topics
+    format: json
+    extension: json
+    create: true
+    delete: false
+    identifier_field: title
+    slug: '{{fields.slug}}'
+    preview_path: '/blog/themen/{{fields.slug}}'
+    summary: '{{title}} · {{review.status}}'
+    sortable_fields: [order, title]
+    fields:
+      - { name: type, widget: hidden, default: articleTopic }
+      - { name: title, label: Name des Themenbereichs, widget: string }
+      - name: slug
+        label: URL-Kürzel
+        widget: string
+        hint: Nach dem Speichern unverändert lassen, damit Artikelzuordnungen und Links erhalten bleiben.
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Kleine Buchstaben, Ziffern und Bindestriche verwenden.']
+      - { name: description, label: Kurzbeschreibung, widget: text }
+      - { name: order, label: Reihenfolge, widget: number, value_type: int, default: 10, min: 0, hint: Kleine Zahlen erscheinen zuerst. }
+      - name: seo
+        label: Suchmaschinen und Teilen
+        widget: object
+        collapsed: true
+        fields:
+          - { name: title, label: SEO-Titel, widget: string }
+          - { name: description, label: Meta-Beschreibung, widget: text }
+          - { name: ogImage, label: Vorschaubild, widget: image, required: false, allow_multiple: false }
+          - { name: noIndex, label: Von der Indexierung ausschließen, widget: boolean, default: false }
+      - name: review
+        label: Prüfung und Freigabe
+        widget: object
+        hint: Nur freigegebene Themen erscheinen im Blog. Archivieren blendet den Bereich aus und behält die Artikel bei.
+        fields:
+          - name: status
+            label: Inhaltsstatus
+            widget: select
+            default: draft
+            options:
+              - { label: Entwurf, value: draft }
+              - { label: In Prüfung, value: review }
+              - { label: Freigegeben, value: published }
+              - { label: Archiviert, value: archived }
+          - { name: medicalReviewRequired, label: Fachliche Prüfung erforderlich, widget: boolean, default: false }
+          - { name: reviewedBy, label: Geprüft von, widget: string, required: false }
+          - { name: lastReviewedAt, label: Prüfdatum, widget: string, required: false, hint: JJJJ-MM-TT }
+  - name: services
+    label: Therapieverfahren
+    label_singular: Therapieverfahren
+    description: Bestehende Therapieverfahren bearbeiten. Die URL bleibt bestehen.
+    folder: apps/web/src/content/editable/services
+    format: json
+    extension: json
+    create: false
+    delete: false
+    identifier_field: title
+    slug: '{{slug}}'
+    preview_path: '/therapieverfahren/{{slug}}'
+    fields:
+      - name: slug
+        widget: hidden
+      - name: metaDescription
+        widget: hidden
+        required: false
+      - name: title
+        label: Titel
+        widget: string
+      - name: summary
+        label: Kurzbeschreibung
+        widget: text
+      - name: introduction
+        label: Einleitung der Detailseite
+        widget: text
+      - name: sections
+        label: Informationen zum Verfahren
+        widget: list
+        collapsed: true
+        summary: '{{fields.heading}}'
+        fields:
+          - { name: heading, label: Überschrift, widget: string }
+          - { name: body, label: Inhalt, widget: text }
+      - name: patientQuestions
+        label: Fragen für das persönliche Gespräch
+        widget: list
+        field: { name: question, label: Frage, widget: text }
+      - name: image
+        label: Bild
+        widget: image
+        allow_multiple: false
+      - name: imageAlt
+        label: Bildbeschreibung
+        widget: string
+        required: false
+        hint: 'Leer lassen, wenn das Bild ausschließlich dekorativ ist.'
+      - name: imagePosition
+        widget: hidden
+      - name: imageScale
+        label: Bildvergrößerung
+        widget: number
+        value_type: float
+        default: 1
+        min: 1
+        max: 2
+        step: 0.05
+      - name: imageSource
+        label: Bildquelle und Urheber
+        widget: string
+        required: false
+      - name: imagePermission
+        label: Nutzungsfreigabe des Bildes
+        widget: text
+        required: false
+      - name: process
+        label: Was Sie erwartet
+        widget: list
+        field:
+          name: text
+          label: Schritt
+          widget: text
+      - name: preparationNotes
+        label: Vorbereitung auf den Termin
+        widget: list
+        field: { name: note, label: Hinweis, widget: text }
+      - name: faqs
+        label: Häufige Fragen
+        widget: list
+        collapsed: true
+        summary: '{{fields.question}}'
+        fields:
+          - { name: question, label: Frage, widget: string }
+          - { name: answer, label: Antwort, widget: text }
+      - name: sources
+        label: Quellen zur Originalseite
+        widget: list
+        collapsed: true
+        summary: '{{fields.label}}'
+        fields:
+          - { name: label, label: Bezeichnung, widget: string }
+          - { name: url, label: Quellen-URL, widget: string }
+      - name: notice
+        label: Wichtiger Hinweis
+        widget: text
+      - *ref_0
+      - *ref_1
+  - name: complaints
+    label: Beschwerdenkatalog
+    label_singular: Körperregion
+    description: >-
+      Regionen, Unterbereiche und Beschwerden bearbeiten. Bestehende URLs und Körperpositionen bleiben erhalten. Medizinische Inhalte vor
+      Veröffentlichung prüfen.
+    folder: apps/web/src/content/editable/complaints
+    format: json
+    extension: json
+    create: false
+    delete: false
+    identifier_field: label
+    slug: '{{id}}'
+    preview_path: /beschwerden
+    fields:
+      - name: id
+        widget: hidden
+      - name: label
+        label: Region
+        widget: string
+      - name: shortLabel
+        label: Kurzbezeichnung
+        widget: string
+      - name: description
+        label: Einordnung
+        widget: text
+      - name: marker
+        widget: hidden
+      - name: groups
+        label: Unterbereiche
+        widget: list
+        collapsed: true
+        fields:
+          - name: id
+            widget: hidden
+          - name: label
+            label: Bezeichnung
+            widget: string
+          - name: description
+            label: Beschreibung
+            widget: text
+            required: false
+          - name: topics
+            label: Beschwerden
+            widget: list
+            collapsed: true
+            fields:
+              - name: slug
+                widget: hidden
+              - name: title
+                label: Titel
+                widget: string
+              - name: description
+                label: Beschreibung
+                widget: text
+              - name: seoTitle
+                label: SEO-Titel
+                widget: string
+              - name: metaDescription
+                label: Meta-Beschreibung
+                widget: text
+              - name: image
+                label: Vorschaubild für Suchmaschinen und Teilen
+                widget: image
+                allow_multiple: false
+              - name: noIndex
+                label: Von der Indexierung ausschließen
+                widget: boolean
+                default: false
+              - name: therapySlugs
+                label: Verknüpfte Therapieverfahren
+                widget: select
+                multiple: true
+                options:
+                  - label: Allergien und Heuschnupfen
+                    value: allergien-heuschnupfen
+                  - label: Fußreflexzonentherapie
+                    value: fussreflexzonentherapie
+                  - label: Komplex-Homöopathie
+                    value: komplex-homoeopathie
+                  - label: Mikrobiologische Therapie
+                    value: mikrobiologische-therapie
+                  - label: Naturheilkundliche Frauenheilkunde
+                    value: naturheilkundliche-frauenheilkunde
+                  - label: Ohrakupunktur
+                    value: ohrakupunktur
+                  - label: Pflanzenheilkunde
+                    value: pflanzenheilkunde
+              - name: careNote
+                label: Hinweis zur ärztlichen Abklärung
+                widget: text
+                required: false
+            allow_add: false
+            min: 1
+            summary: '{{fields.title}}'
+        allow_add: false
+        min: 1
+        summary: '{{fields.label}}'
+      - *ref_1

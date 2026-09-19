@@ -1,0 +1,76 @@
+{
+  "title": "Fußreflexzonentherapie",
+  "slug": "fussreflexzonentherapie",
+  "image": "/wordpress images/Fussreflexzonentheapie-Homepage.webp",
+  "imagePosition": "center bottom",
+  "imageScale": 1,
+  "summary": "Eine manuelle Anwendung an den Füßen mit gezielten Berührungen und individuell abgestimmtem Druck – begleitet von einem persönlichen Gespräch.",
+  "metaDescription": "Fußreflexzonentherapie in Hamburg: Ablauf der manuellen Anwendung, Vorbereitung und verständliche Einordnung ihrer Möglichkeiten und Grenzen.",
+  "seo": {
+    "title": "Fußreflexzonentherapie Hamburg | Ablauf & Einordnung",
+    "description": "Fußreflexzonentherapie in Hamburg: Ablauf der manuellen Anwendung, Vorbereitung und verständliche Einordnung ihrer Möglichkeiten und Grenzen.",
+    "image": "/wordpress images/Fussreflexzonentheapie-Homepage.webp",
+    "noIndex": false
+  },
+  "imageAlt": "Symbolmotiv einer manuellen Anwendung: Zwei Hände üben Druck auf eine Fußsohle aus.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Aus dem vorhandenen Medienbestand der Originalwebsite übernommen. Nutzungsrechte und Freigabe für die neue Website sind vor Veröffentlichung durch die Praxis zu bestätigen.",
+  "process": [
+    "Wir besprechen Ihr Anliegen, Ihre Erwartungen und mögliche Einschränkungen an den Füßen.",
+    "Vor Beginn werden Vorgehen, Druckempfinden und die Grenzen der Methode erklärt.",
+    "Die Fußbereiche werden manuell behandelt; Intensität und Pausen richten sich nach Ihrer Rückmeldung.",
+    "Anschließend besprechen wir Ihr Empfinden und mögliche nächste Schritte."
+  ],
+  "notice": "Die Zuordnung von Fußzonen zu inneren Organen und daraus abgeleitete Heilwirkungen sind wissenschaftlich nicht belegt. Die Anwendung ersetzt weder eine ärztliche Diagnose noch eine notwendige Behandlung.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "introduction": "Bei der Fußreflexzonentherapie stehen die Füße und gezielte manuelle Berührungen im Mittelpunkt. Bestimmte Bereiche werden mit unterschiedlichem Druck behandelt. Die Methode beruht auf der Vorstellung, dass einzelnen Fußzonen andere Körperregionen zugeordnet sind. Eine gezielte Behandlung innerer Organe über diese Zonen ist wissenschaftlich jedoch nicht belegt. In meiner Praxis wird die Anwendung als möglicher ergänzender Bestandteil eines individuellen Vorgehens besprochen. Dabei zählen Ihre persönliche Situation, Ihr Empfinden und Ihre Grenzen. Vor der ersten Behandlung klären wir gemeinsam, was Sie sich wünschen, welche Beschwerden bereits untersucht wurden und ob eine manuelle Anwendung an den Füßen für Sie infrage kommt.",
+  "sections": [
+    {
+      "heading": "Berührung und Druck werden abgestimmt",
+      "body": "Die Anwendung verbindet gezielte Massage- und Druckimpulse an verschiedenen Bereichen der Füße. Die Intensität kann dabei unterschiedlich sein. Entscheidend für den Ablauf ist Ihre Rückmeldung: Manche Berührungen fühlen sich angenehm an, andere können empfindlich sein. Es besteht kein Anlass, schmerzhafte Reize auszuhalten. Während der Anwendung können wir den Druck anpassen oder pausieren. Vorhandene Beschwerden oder Verletzungen an den Füßen sollten deshalb bereits im Vorgespräch genannt werden, damit sie bei der Entscheidung berücksichtigt werden."
+    },
+    {
+      "heading": "Ein ergänzender Rahmen mit klaren Grenzen",
+      "body": "Fußreflexzonentherapie wird unter anderem bei Anliegen rund um Anspannung und Frauengesundheit angeboten. Daraus lässt sich jedoch keine spezifische Wirkung auf Erkrankungen ableiten. Die wissenschaftliche Grundlage für die behauptete Verbindung zwischen Fußzonen und Organen ist unzureichend. Im persönlichen Gespräch ordnen wir daher Erwartungen und mögliche Grenzen ein. Eine ruhige Behandlungssituation und zugewandte Berührung können als angenehm empfunden werden; ein bestimmter gesundheitlicher Nutzen lässt sich daraus nicht versprechen."
+    }
+  ],
+  "patientQuestions": [
+    "Wie fühlt sich eine Anwendung an den Fußreflexzonen an?",
+    "Kann ich den Druck mitbestimmen, wenn meine Füße empfindlich sind?",
+    "Wie lässt sich eine manuelle Anwendung in meine bestehende Begleitung einordnen?"
+  ],
+  "preparationNotes": [
+    "Informieren Sie vorab über Schmerzen, Verletzungen, Hautveränderungen oder andere bekannte Erkrankungen an den Füßen.",
+    "Wählen Sie Kleidung, in der Füße und Unterschenkel gut zugänglich sind und Sie bequem liegen können.",
+    "Bringen Sie vorhandene Befunde und Ihre Medikamentenliste mit; sprechen Sie auch eine mögliche Schwangerschaft an."
+  ],
+  "faqs": [
+    {
+      "question": "Muss die Behandlung schmerzhaft sein?",
+      "answer": "Nein. Sie sollen keinen unangenehmen Druck aushalten müssen. Teilen Sie Empfindlichkeit oder Schmerzen sofort mit, damit die Anwendung angepasst oder beendet werden kann."
+    },
+    {
+      "question": "Werden über die Füße Erkrankungen festgestellt?",
+      "answer": "Nein. Aus empfindlichen Fußstellen lässt sich keine verlässliche Diagnose innerer Erkrankungen ableiten. Neue oder ungeklärte Beschwerden gehören unabhängig von einer manuellen Anwendung ärztlich untersucht."
+    },
+    {
+      "question": "Ist Fußreflexzonentherapie dasselbe wie eine Fußmassage?",
+      "answer": "Die Reflexzonentherapie orientiert sich an einer bestimmten Vorstellung von Zonen am Fuß. Anders als eine allgemeine Fußmassage folgt sie diesem Schema. Die behauptete spezifische Wirkung auf zugeordnete Organe ist wissenschaftlich nicht belegt."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Originalseite der Praxis: Fußreflexzonentherapie",
+      "url": "https://www.alscher-scheunemann.de/therapieverfahren/fussreflexzonen-therapie/"
+    },
+    {
+      "label": "NCCIH: Reflexzonentherapie und Forschungslage (englisch)",
+      "url": "https://www.nccih.nih.gov/health/reflexology"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+.git
+.github
+.agents
+.codex
+.openai
+.pnpm-store
+.deploy-tmp-*
+.next
+node_modules
+**/node_modules
+dist
+**/dist
+coverage
+**/*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Only media referenced by the current app belongs in the production image.
+apps/web/public/wordpress images/*
+!apps/web/public/wordpress images/Darmschleimhaut-1.webp
+!apps/web/public/wordpress images/Frauenheilkunde-Homepage.webp
+!apps/web/public/wordpress images/Fussreflexzonentheapie-Homepage.webp
+!apps/web/public/wordpress images/Heuschnupfen-1.webp
+!apps/web/public/wordpress images/Homoeopahtie-pdf-1-scaled-1.webp
+!apps/web/public/wordpress images/Ohrakupunktur-Mann-1.webp
+!apps/web/public/wordpress images/Pflanzenheilkunde-Homepage-1.webp
+
+apps/web/public/brand-alt-acupuncture-ear.png
+apps/web/public/brand-neu-botanical-left.png
+apps/web/public/brand-neu-botanical-soft.png
+apps/web/public/brand-neu-right-motif.png
+apps/web/public/Elegante Akupunktur- und Naturheilkunde Branding.png
+apps/web/public/vitruvian-woman-complaints.png

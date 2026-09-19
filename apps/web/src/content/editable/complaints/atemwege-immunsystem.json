@@ -1,0 +1,82 @@
+{
+  "id": "atemwege-immunsystem",
+  "label": "Atemwege & Immunsystem",
+  "shortLabel": "Immunsystem",
+  "description": "Saisonale Allergien, Heuschnupfen und wiederkehrende Infekte können Alltag, Schlaf und Leistungsfähigkeit belasten. Die Begleitung orientiert sich an Auslösern, Verlauf und individueller Situation.",
+  "marker": {
+    "targetX": 56,
+    "targetY": 39,
+    "calloutX": 96,
+    "calloutY": 43,
+    "side": "right",
+    "zoomScale": 1.35
+  },
+  "groups": [
+    {
+      "id": "allergien-abwehr",
+      "label": "Allergien & Abwehr",
+      "topics": [
+        {
+          "title": "Allergien & Heuschnupfen",
+          "slug": "allergien-heuschnupfen",
+          "metaDescription": "Allergien und Heuschnupfen naturheilkundlich begleiten: Auslöser, Saisonverlauf und persönliche Belastung individuell in Hamburg betrachten.",
+          "description": "Bei Heuschnupfen und anderen allergischen Beschwerden stehen Auslöser, Saisonverlauf und die persönliche Belastung im Mittelpunkt. Daraus wird eine individuelle naturheilkundliche Begleitung abgeleitet.",
+          "therapySlugs": [
+            "allergien-heuschnupfen",
+            "ohrakupunktur",
+            "pflanzenheilkunde"
+          ],
+          "seoTitle": "Allergien & Heuschnupfen in Hamburg",
+          "image": "/xray/xray-atemwege-immunsystem.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Erhöhte Infektanfälligkeit",
+          "slug": "erhoehte-infektanfaelligkeit",
+          "seoTitle": "Infektanfälligkeit in Hamburg",
+          "metaDescription": "Häufige Infekte und lange Erholungsphasen einordnen: Schlaf, Stress, Ernährung und Darmgesundheit individuell in Hamburg betrachten.",
+          "description": "Wenn Erkältungen häufig wiederkehren oder die Erholung lange dauert, werden unter anderem Schlaf, Stress, Ernährung und Darmgesundheit in die Anamnese einbezogen.",
+          "therapySlugs": [
+            "pflanzenheilkunde",
+            "mikrobiologische-therapie"
+          ],
+          "image": "/xray/xray-atemwege-immunsystem.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Erkältungsbeschwerden",
+          "slug": "erkaeltungsbeschwerden",
+          "metaDescription": "Unkomplizierte Erkältungsbeschwerden naturheilkundlich begleiten und starke oder ungewöhnliche Verläufe rechtzeitig ärztlich abklären.",
+          "description": "Bei unkomplizierten Erkältungsbeschwerden können pflanzliche und komplex-homöopathische Verfahren individuell ausgewählt werden. Starke oder ungewöhnliche Verläufe gehören in ärztliche Behandlung.",
+          "therapySlugs": [
+            "pflanzenheilkunde",
+            "komplex-homoeopathie"
+          ],
+          "seoTitle": "Erkältungsbeschwerden in Hamburg",
+          "image": "/xray/xray-atemwege-immunsystem.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Allergieneigung",
+          "slug": "allergieneigung",
+          "metaDescription": "Wiederkehrende allergische Reaktionen ganzheitlich betrachten: Schleimhäute, Immunsystem, Verdauung und Belastungsfaktoren einbeziehen.",
+          "description": "Bei wiederkehrenden allergischen Reaktionen können Schleimhäute, Immunsystem, Verdauung und persönliche Belastungsfaktoren gemeinsam betrachtet werden.",
+          "therapySlugs": [
+            "allergien-heuschnupfen",
+            "mikrobiologische-therapie",
+            "fussreflexzonentherapie"
+          ],
+          "seoTitle": "Allergieneigung in Hamburg",
+          "image": "/xray/xray-atemwege-immunsystem.webp",
+          "noIndex": false
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Komplex-Homöopathie",
+  "slug": "komplex-homoeopathie",
+  "image": "/wordpress images/Homoeopahtie-pdf-1-scaled-1.webp",
+  "imagePosition": "center bottom",
+  "imageScale": 1.4,
+  "summary": "Was homöopathische Kombinationen enthalten, wie sie sich von Einzelmitteln unterscheiden und welche wissenschaftlichen Grenzen zu beachten sind.",
+  "metaDescription": "Komplex-Homöopathie verständlich erklärt: Zusammensetzung, Unterschiede zu Einzelmitteln, wissenschaftliche Grenzen und Beratung in Hamburg.",
+  "seo": {
+    "title": "Komplex-Homöopathie | Informationen & Grenzen",
+    "description": "Komplex-Homöopathie verständlich erklärt: Zusammensetzung, Unterschiede zu Einzelmitteln, wissenschaftliche Grenzen und Beratung in Hamburg.",
+    "image": "/wordpress images/Homoeopahtie-pdf-1-scaled-1.webp",
+    "noIndex": false
+  },
+  "imageAlt": "Symbolmotiv mit Globuli, einer Tropfflasche und Ampullen homöopathischer Präparate.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Aus dem vorhandenen Medienbestand der Originalwebsite übernommen. Nutzungsrechte und Freigabe für die neue Website sind vor Veröffentlichung durch die Praxis zu bestätigen.",
+  "process": [
+    "Wir klären Ihr Anliegen und welche ärztliche Abklärung oder Behandlung bereits erfolgt ist.",
+    "Die Grundlagen der Komplex-Homöopathie und die fehlende belastbare Wirksamkeitsevidenz werden erläutert.",
+    "Konkrete Präparate werden auf Zusammensetzung, Anwendungshinweise und mögliche Risiken hin eingeordnet.",
+    "Wir besprechen Ihre Fragen und achten darauf, dass notwendige medizinische Versorgung fortgeführt wird."
+  ],
+  "notice": "Für Homöopathie gibt es keine belastbaren Nachweise einer spezifischen Wirksamkeit über Placeboeffekte hinaus. Homöopathische Präparate ersetzen keine wirksame medizinische Behandlung und sind nicht grundsätzlich frei von Nebenwirkungen.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "introduction": "Komplex-Homöopathie bezeichnet Präparate, in denen mehrere homöopathische Einzelmittel kombiniert werden. Die Homöopathie geht auf Samuel Hahnemann zurück und beruht auf historischen Vorstellungen wie dem Ähnlichkeitsprinzip und der sogenannten Potenzierung. Diese Vorstellungen sind kein wissenschaftlich gesicherter Wirkmechanismus. Für eine spezifische Wirksamkeit homöopathischer Behandlungen über Placeboeffekte hinaus gibt es keine belastbaren Nachweise. Wenn Sie Fragen zu solchen Präparaten haben oder bereits welche einnehmen, können wir diese im Gespräch einordnen. Dazu gehören die Zusammensetzung, mögliche Risiken und Ihre bisherige medizinische Versorgung. Eine wirksame ärztliche Behandlung darf dadurch weder ersetzt noch verzögert werden.",
+  "sections": [
+    {
+      "heading": "Was ein Komplexmittel ausmacht",
+      "body": "Anders als bei einer Auswahl nur eines homöopathischen Mittels werden in der Komplex-Homöopathie mehrere Bestandteile in einem Produkt zusammengeführt. Komplexmittel können niedrigere Verdünnungen und Mischungen mit Urtinkturen enthalten. Sie werden in unterschiedlichen Darreichungsformen angeboten, etwa als Tropfen oder Globuli. Für eine sachliche Einordnung zählt deshalb das konkrete Produkt mit seiner Zusammensetzung. Die Kombination mehrerer Mittel ist für sich genommen kein Beleg für eine höhere Wirksamkeit. Die historische Begründung der Methode muss von einem wissenschaftlichen Wirksamkeitsnachweis unterschieden werden."
+    },
+    {
+      "heading": "Evidenz und Verträglichkeit offen besprechen",
+      "body": "Die fehlende belastbare Evidenz sollte vor einer Entscheidung bekannt sein. Gleichzeitig bedeutet die Bezeichnung „homöopathisch“ nicht automatisch, dass ein Präparat keine relevanten Inhaltsstoffe enthält. Insbesondere weniger stark verdünnte Mittel können wirksame Ausgangssubstanzen enthalten; flüssige Produkte können außerdem Alkohol enthalten. Nebenwirkungen und Wechselwirkungen sind daher nicht grundsätzlich ausgeschlossen. Im Gespräch betrachten wir das genaue Präparat und die bereits eingenommenen Medikamente. Neue oder zunehmende Beschwerden sollten medizinisch abgeklärt werden und nicht pauschal als erwartete Reaktion auf ein Mittel gelten."
+    }
+  ],
+  "patientQuestions": [
+    "Was unterscheidet ein Komplexmittel von einem homöopathischen Einzelmittel?",
+    "Welche Aussage lässt sich zur wissenschaftlichen Wirksamkeit treffen?",
+    "Welche Inhaltsstoffe und möglichen Wechselwirkungen hat ein Präparat, das ich bereits einnehme?"
+  ],
+  "preparationNotes": [
+    "Bringen Sie die genaue Bezeichnung oder Verpackung bereits verwendeter homöopathischer Mittel mit.",
+    "Notieren Sie alle weiteren Medikamente und Nahrungsergänzungsmittel sowie bekannte Allergien.",
+    "Halten Sie fest, aus welchem Anlass Sie ein Mittel verwenden und welche Veränderungen Sie beobachtet haben."
+  ],
+  "faqs": [
+    {
+      "question": "Ist die Wirksamkeit wissenschaftlich belegt?",
+      "answer": "Für homöopathische Behandlungen fehlt ein belastbarer Nachweis einer spezifischen Wirksamkeit über Placeboeffekte hinaus. Die Zusammenstellung mehrerer Einzelmittel in einem Komplexpräparat ändert daran nichts."
+    },
+    {
+      "question": "Können homöopathische Präparate Nebenwirkungen haben?",
+      "answer": "Ja, das ist je nach Zusammensetzung möglich. Niedrige Verdünnungen können relevante Mengen an Ausgangsstoffen enthalten; auch Alkohol oder andere Hilfsstoffe können eine Rolle spielen. Das konkrete Produkt muss betrachtet werden."
+    },
+    {
+      "question": "Kann Komplex-Homöopathie meine ärztliche Behandlung ersetzen?",
+      "answer": "Nein. Notwendige Diagnostik und nachweislich wirksame Behandlungen dürfen dadurch nicht ersetzt oder verzögert werden. Verordnete Medikamente sollen nur in Rücksprache mit der behandelnden Ärztin oder dem behandelnden Arzt verändert werden."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Originalseite der Praxis: Komplex-Homöopathie",
+      "url": "https://www.alscher-scheunemann.de/therapieverfahren/komplex-homoeopathie/"
+    },
+    {
+      "label": "NCCIH: Homöopathie – Evidenz und Sicherheit (englisch)",
+      "url": "https://www.nccih.nih.gov/health/homeopathy"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "magen-darm",
+  "label": "Magen & Darm",
+  "shortLabel": "Magen & Darm",
+  "description": "Blähungen, Völlegefühl, Durchfall, Verstopfung oder Unverträglichkeiten können sich sehr unterschiedlich zeigen. Ernährung, Stress, Medikamente, Infekte und hormonelle Veränderungen können bei der Einordnung mitbetrachtet werden.",
+  "marker": {
+    "targetX": 51,
+    "targetY": 49,
+    "calloutX": 96,
+    "calloutY": 56,
+    "side": "right",
+    "zoomScale": 1.5
+  },
+  "groups": [
+    {
+      "id": "magen",
+      "label": "Magen",
+      "topics": [
+        {
+          "title": "Völlegefühl & stressbedingte Magenbeschwerden",
+          "slug": "voellegefuehl-stressbedingte-magenbeschwerden",
+          "seoTitle": "Völlegefühl und empfindlicher Magen",
+          "metaDescription": "Völlegefühl, früher Sättigung und stressbedingte Magenbeschwerden: Verlauf und mögliche Auslöser individuell in Hamburg einordnen.",
+          "description": "Druck, frühes Sättigungsgefühl, Völlegefühl oder ein empfindlicher Magen können besonders nach Mahlzeiten oder in Stressphasen auftreten. Verlauf und Auslöser werden sorgfältig eingeordnet.",
+          "therapySlugs": [
+            "mikrobiologische-therapie",
+            "ohrakupunktur",
+            "pflanzenheilkunde"
+          ],
+          "image": "/xray/xray-magen-darm.webp",
+          "noIndex": false
+        }
+      ]
+    },
+    {
+      "id": "darm",
+      "label": "Darm",
+      "topics": [
+        {
+          "title": "Blähungen",
+          "slug": "blaehungen",
+          "metaDescription": "Blähungen individuell einordnen: Ernährung, Tagesverlauf, Stuhlverhalten, Zyklus und Stress in einer ganzheitlichen Anamnese betrachten.",
+          "description": "Blähungen können nach bestimmten Mahlzeiten, im Tagesverlauf oder in Verbindung mit dem Zyklus und Stress auftreten. Zeitpunkt, Ernährung und Stuhlverhalten geben wichtige Hinweise für die Anamnese.",
+          "therapySlugs": [
+            "mikrobiologische-therapie",
+            "fussreflexzonentherapie",
+            "pflanzenheilkunde"
+          ],
+          "seoTitle": "Blähungen in Hamburg",
+          "image": "/xray/xray-magen-darm.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Durchfall, Verstopfung & wechselnde Verdauung",
+          "slug": "durchfall-verstopfung-wechselnde-verdauung",
+          "seoTitle": "Durchfall, Verstopfung und Verdauung",
+          "metaDescription": "Durchfall, Verstopfung und wechselnde Verdauung sorgfältig abklären: Verlauf, Ernährung, Medikamente und Begleitsymptome betrachten.",
+          "description": "Anhaltender Durchfall, Verstopfung oder ein Wechsel zwischen beidem sollte individuell abgeklärt werden. Dabei werden Verlauf, Ernährung, Medikamente und Begleitsymptome berücksichtigt.",
+          "therapySlugs": [
+            "mikrobiologische-therapie",
+            "pflanzenheilkunde"
+          ],
+          "image": "/xray/xray-magen-darm.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Reizdarm & funktionelle Verdauungsbeschwerden",
+          "slug": "reizdarm-funktionelle-verdauungsbeschwerden",
+          "seoTitle": "Reizdarm und funktionelle Verdauung",
+          "metaDescription": "Reizdarm und funktionelle Verdauungsbeschwerden ergänzend begleiten: persönliches Beschwerdebild nach ärztlicher Diagnostik betrachten.",
+          "description": "Bauchschmerzen, Blähungen und verändertes Stuhlverhalten können auch nach unauffälliger ärztlicher Diagnostik fortbestehen. Die ergänzende Begleitung richtet sich nach dem persönlichen Beschwerdebild.",
+          "therapySlugs": [
+            "mikrobiologische-therapie",
+            "ohrakupunktur",
+            "fussreflexzonentherapie"
+          ],
+          "image": "/xray/xray-magen-darm.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Nahrungsmittelunverträglichkeiten",
+          "slug": "nahrungsmittelunvertraeglichkeiten",
+          "metaDescription": "Nahrungsmittelunverträglichkeiten sorgfältig einordnen, unnötige Einschränkungen vermeiden und alltagstaugliche Orientierung finden.",
+          "description": "Beschwerden nach bestimmten Lebensmitteln sollten sorgfältig eingeordnet werden, bevor Nahrungsmittel langfristig gemieden werden. Ziel ist eine möglichst klare und alltagstaugliche Orientierung.",
+          "therapySlugs": [
+            "mikrobiologische-therapie"
+          ],
+          "seoTitle": "Nahrungsmittelunverträglichkeiten in Hamburg",
+          "image": "/xray/xray-magen-darm.webp",
+          "noIndex": false
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "articleTopic", "slug": "naturheilkunde", "title": "Naturheilkunde",
+  "description": "Hintergründe und Gedanken zu naturheilkundlichen Verfahren.", "order": 1,
+  "seo": { "title": "Naturheilkunde – Themen und Beiträge", "description": "Beiträge und Hintergründe zur Naturheilkunde im Blog von Maria Alscher-Scheunemann.", "noIndex": false },
+  "review": { "status": "published", "medicalReviewRequired": false }
+}

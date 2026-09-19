@@ -1,0 +1,83 @@
+{
+  "id": "haut-haare",
+  "label": "Haut & Haare",
+  "shortLabel": "Haut & Haare",
+  "description": "Haut und Haare reagieren sensibel auf innere und äußere Einflüsse. Bei der ganzheitlichen Betrachtung können unter anderem Hormone, Stress, Verdauung, Ernährung und Hautpflege eine Rolle spielen.",
+  "marker": {
+    "targetX": 35,
+    "targetY": 32,
+    "calloutX": 4,
+    "calloutY": 38,
+    "side": "left",
+    "zoomScale": 1.25
+  },
+  "groups": [
+    {
+      "id": "haut-haare",
+      "label": "Haut & Haare",
+      "topics": [
+        {
+          "title": "Akne",
+          "slug": "akne",
+          "metaDescription": "Akne ganzheitlich betrachten: mögliche Einflüsse von Zyklus, Stress, Verdauung, Ernährung und Hautpflege in der Praxis in Hamburg.",
+          "description": "Akne kann im Gesicht, am Dekolleté oder am Rücken auftreten und hormonell beeinflusst sein. Bei der Einordnung können Zyklus, Stress, Verdauung, Ernährung und Hautpflege mitbetrachtet werden.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde",
+            "mikrobiologische-therapie",
+            "ohrakupunktur",
+            "pflanzenheilkunde"
+          ],
+          "seoTitle": "Akne in Hamburg",
+          "image": "/xray/xray-haut-haare.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Neurodermitis & Ekzeme",
+          "slug": "neurodermitis-ekzeme",
+          "metaDescription": "Neurodermitis und Ekzeme ergänzend begleiten: Hautsituation, mögliche Auslöser und Verdauung individuell in Hamburg betrachten.",
+          "description": "Trockene, gerötete, juckende oder entzündete Haut kann phasenweise sehr belastend sein. Eine ergänzende Begleitung berücksichtigt die individuelle Hautsituation, Verdauung und mögliche Auslöser.",
+          "therapySlugs": [
+            "pflanzenheilkunde",
+            "mikrobiologische-therapie",
+            "ohrakupunktur",
+            "komplex-homoeopathie"
+          ],
+          "seoTitle": "Neurodermitis & Ekzeme in Hamburg",
+          "image": "/xray/xray-haut-haare.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Schuppenflechte",
+          "slug": "schuppenflechte",
+          "metaDescription": "Schuppenflechte naturheilkundlich ergänzend begleiten: persönliche Hautsituation berücksichtigen und dermatologische Behandlung einbeziehen.",
+          "description": "Schuppenflechte ist eine chronisch-entzündliche Hauterkrankung, die dermatologisch begleitet werden sollte. Naturheilkundliche Verfahren können ergänzend auf die persönliche Situation abgestimmt werden.",
+          "therapySlugs": [
+            "pflanzenheilkunde",
+            "komplex-homoeopathie"
+          ],
+          "seoTitle": "Schuppenflechte in Hamburg",
+          "image": "/xray/xray-haut-haare.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Hormonelle Haut- & Haarveränderungen",
+          "slug": "hormonelle-haut-haarveraenderungen",
+          "seoTitle": "Hormonelle Haut- und Haarveränderungen",
+          "metaDescription": "Hormonelle Haut- und Haarveränderungen rund um Zyklus, Pille oder Wechseljahre individuell und ganzheitlich in Hamburg betrachten.",
+          "description": "Wenn sich Haut oder Haare im Zusammenhang mit dem Zyklus, nach dem Absetzen der Pille oder in den Wechseljahren verändern, kann eine hormonelle Betrachtung hilfreich sein.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde"
+          ],
+          "image": "/xray/xray-haut-haare.webp",
+          "noIndex": false
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

@@ -6,7 +6,7 @@ This repository is the website foundation for a German Heilpraktikerin practice.
 
 Primary stack:
 
-- React via Next.js App Router for SEO, static generation, metadata, sitemap, robots, and structured data.
+- React via Vite for the frontend, with static prerendering for SEO, metadata, sitemap, robots, and structured data.
 - CMS-neutral content model until the provider is chosen.
 - German copy by default.
 
@@ -16,7 +16,7 @@ Primary stack:
 - German display text must use real German characters: `ä`, `ö`, `ü`, `Ä`, `Ö`, `Ü`, and `ß`. Do not write `ae`, `oe`, `ue`, or `ss` as replacements in visible German copy. ASCII transliteration is allowed only for URLs, slugs, code identifiers, file names, env vars, and third-party technical values.
 - Prefer careful wording such as "begleiten", "unterstützen", "kann hilfreich sein" when medically appropriate.
 - Keep legal pages, imprint, privacy copy, pricing, address, and practitioner credentials as launch blockers until verified by the client.
-- Default `NEXT_PUBLIC_ALLOW_INDEXING=false` while placeholder content exists.
+- Default `VITE_ALLOW_INDEXING=false` while placeholder content exists. Legacy `NEXT_PUBLIC_ALLOW_INDEXING=false` is supported during the transition.
 - Content and schema must not invent address, credentials, awards, reviews, opening hours, or treatment claims.
 
 ## Design Direction
@@ -34,7 +34,7 @@ Primary stack:
 - Service pages should target one clear search intent each, with FAQ content only when it answers real patient questions.
 - Use structured data conservatively: `LocalBusiness` for the practice and `Service` for individual services.
 - Keep sitemap routes aligned with existing pages only.
-- Prefer server-rendered/static content over client-only rendering for crawlable content.
+- Prefer prerendered/static content over client-only rendering for crawlable content.
 
 ## CMS Direction
 

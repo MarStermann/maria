@@ -2,10 +2,14 @@
   "name": "maria-heilpraktikerin-website",
   "version": "0.1.0",
   "private": true,
-  "description": "React/Next.js website foundation for a Heilpraktikerin practice with a headless CMS content model.",
+  "description": "React/Vite website foundation for a Heilpraktikerin practice with a headless CMS content model.",
   "scripts": {
-    "dev": "npm --workspace @maria/web run dev",
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm --workspace @maria/web run dev",
+    "dev:cms": "node scripts/dev.mjs --cms-only",
     "build": "npm --workspace @maria/web run build",
+    "build:cms": "node scripts/build-cms.mjs",
+    "test": "node --test apps/web/tests/article-content.test.ts apps/web/tests/article-sections.test.mjs deploy/cms/server.test.mjs",
     "start": "npm --workspace @maria/web run start",
     "typecheck": "npm --workspaces --if-present run typecheck"
   },
@@ -20,6 +24,7 @@
     "node": ">=20.9.0"
   },
   "devDependencies": {
+    "decap-server": "3.11.2",
     "postcss": "8.5.10",
     "typescript": "6.0.3"
   }

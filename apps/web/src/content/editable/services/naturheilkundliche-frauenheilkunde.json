@@ -1,0 +1,76 @@
+{
+  "title": "Naturheilkundliche Frauenheilkunde",
+  "slug": "naturheilkundliche-frauenheilkunde",
+  "image": "/wordpress images/Frauenheilkunde-Homepage.webp",
+  "imagePosition": "center bottom",
+  "imageScale": 1.4,
+  "summary": "Zeit für Fragen zu Zyklus, Kinderwunsch und Wechseljahren – mit einer persönlichen Begleitung ergänzend zur gynäkologischen Versorgung.",
+  "metaDescription": "Naturheilkundliche Frauenheilkunde in Hamburg: persönliche Beratung zu Zyklus, Kinderwunsch und Wechseljahren ergänzend zur gynäkologischen Versorgung.",
+  "seo": {
+    "title": "Naturheilkundliche Frauenheilkunde in Hamburg",
+    "description": "Naturheilkundliche Frauenheilkunde in Hamburg: persönliche Beratung zu Zyklus, Kinderwunsch und Wechseljahren ergänzend zur gynäkologischen Versorgung.",
+    "image": "/wordpress images/Frauenheilkunde-Homepage.webp",
+    "noIndex": false
+  },
+  "imageAlt": "Symbolmotiv zur Frauengesundheit mit einer Blüte und einer schematischen Darstellung der Gebärmutter im Hintergrund.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Aus dem vorhandenen Medienbestand der Originalwebsite übernommen. Nutzungsrechte und Freigabe für die neue Website sind vor Veröffentlichung durch die Praxis zu bestätigen.",
+  "process": [
+    "Wir nehmen uns Zeit für Ihr Anliegen, Ihre Lebensphase und bisherige Behandlungen.",
+    "Vorhandene Befunde werden gemeinsam eingeordnet und noch offene ärztliche Fragen festgehalten.",
+    "Mögliche ergänzende Verfahren werden hinsichtlich Grenzen, Verträglichkeit und Ihrer Wünsche besprochen.",
+    "Wir vereinbaren nachvollziehbare nächste Schritte und einen passenden Zeitpunkt für eine Rückmeldung."
+  ],
+  "notice": "Naturheilkundliche Frauenheilkunde ergänzt die ärztliche Versorgung. Gynäkologische Abklärung, Vorsorge und notwendige Behandlungen bleiben unverzichtbar. Ein Behandlungserfolg oder der Eintritt einer Schwangerschaft wird nicht versprochen.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "introduction": "Frauengesundheit ist ein Schwerpunkt meiner Praxis. Fragen rund um den Zyklus, die Zeit des Kinderwunsches oder die Wechseljahre betreffen häufig mehrere Lebensbereiche zugleich. Im Gespräch bekommen Ihre Beschwerden, Ihr Alltag und Ihre bisherigen Erfahrungen Raum. Gemeinsam sichten wir vorhandene Befunde und klären, welche Fragen noch ärztlich beantwortet werden sollten. Auf dieser Grundlage können wir mögliche naturheilkundliche Ergänzungen besprechen. Dabei bleibt die gynäkologische Versorgung wesentlich: In meiner Praxis finden keine gynäkologischen Untersuchungen statt. Es geht um eine nachvollziehbare Begleitung, die Ihre persönlichen Wünsche berücksichtigt und Ihnen hilft, die nächsten Schritte gut informiert zu entscheiden.",
+  "sections": [
+    {
+      "heading": "Die Lebensphase und das Anliegen verstehen",
+      "body": "Zyklusbeschwerden, PMS, Kinderwunsch und Wechseljahre gehören zu den häufigen Gesprächsthemen in meiner Praxis. Auch Frauen mit bereits ärztlich festgestellter Endometriose, PCOS oder Myomen suchen ergänzende Beratung. Daraus ergibt sich kein allgemeines Behandlungsversprechen für diese Erkrankungen. Zunächst interessiert, was Sie aktuell belastet, welche Untersuchungen erfolgt sind und welche Unterstützung Sie sich wünschen. Mitgebrachte Zyklusaufzeichnungen und Vorbefunde können dabei helfen, Fragen zu ordnen und gemeinsam einen überschaubaren nächsten Schritt zu besprechen."
+    },
+    {
+      "heading": "Ergänzende Begleitung sinnvoll abstimmen",
+      "body": "Zu den Verfahren meiner Praxis zählen Pflanzenheilkunde, Ohrakupunktur und Fußreflexzonentherapie. Welche Ergänzung gegebenenfalls infrage kommt, wird für Ihr Anliegen einzeln besprochen. Nicht jede Methode ist für jede Situation geeignet oder ausreichend wissenschaftlich untersucht. Bei bestehenden gynäkologischen Behandlungen berücksichtigen wir deren Ziele und die verordneten Medikamente. Untersuchungen oder Laborwerte sollten eine konkrete Fragestellung beantworten; sie gehören immer in den klinischen Zusammenhang. Eine Schwangerschaft, eine Hormonregulation oder ein bestimmter Behandlungserfolg können durch die Begleitung nicht zugesagt werden."
+    }
+  ],
+  "patientQuestions": [
+    "Wie kann ich Fragen zu meinem Zyklus und bisherigen Befunden in Ruhe besprechen?",
+    "Welche ergänzende Begleitung kommt während der Wechseljahre für mich infrage?",
+    "Wie lässt sich naturheilkundliche Beratung mit meiner gynäkologischen oder Kinderwunschbehandlung abstimmen?"
+  ],
+  "preparationNotes": [
+    "Bringen Sie vorhandene gynäkologische Befunde und Laborergebnisse mit, soweit diese vorliegen.",
+    "Notieren Sie gegebenenfalls Zyklusverlauf, Blutungszeiten und die Fragen, die Ihnen besonders wichtig sind.",
+    "Erstellen Sie eine Übersicht über Medikamente, hormonelle Präparate und Nahrungsergänzungsmittel."
+  ],
+  "faqs": [
+    {
+      "question": "Finden gynäkologische Untersuchungen in der Praxis statt?",
+      "answer": "Nein. Gynäkologische Untersuchungen erfolgen durch Ärztinnen und Ärzte. Naturheilkundliche Beratung ersetzt weder diese Untersuchungen noch die reguläre Vorsorge."
+    },
+    {
+      "question": "Kann ich mit einer bestehenden gynäkologischen Diagnose kommen?",
+      "answer": "Ja, Sie können eine ergänzende Beratung anfragen und vorhandene Befunde mitbringen. Die ärztliche Behandlung bleibt maßgeblich. Ob und welche naturheilkundliche Ergänzung infrage kommt, wird im Einzelfall besprochen."
+    },
+    {
+      "question": "Muss ich dafür die Pille oder andere Hormone absetzen?",
+      "answer": "Nein. Hormonelle und andere verordnete Medikamente dürfen nicht eigenständig wegen einer ergänzenden Begleitung abgesetzt werden. Fragen zu Änderungen oder Verhütung klären Sie bitte mit Ihrer behandelnden Ärztin oder Ihrem Arzt."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Originalseite der Praxis: Naturheilkundliche Frauenheilkunde",
+      "url": "https://www.alscher-scheunemann.de/therapieverfahren/naturheilkundliche-frauenheilkunde/"
+    },
+    {
+      "label": "NCCIH: Ergänzende Verfahren informiert einordnen (englisch)",
+      "url": "https://www.nccih.nih.gov/health/are-you-considering-a-complementary-health-approach"
+    }
+  ]
+}

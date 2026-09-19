@@ -1,0 +1,76 @@
+{
+  "title": "Ohrakupunktur",
+  "slug": "ohrakupunktur",
+  "image": "/wordpress images/Ohrakupunktur-Mann-1.webp",
+  "imagePosition": "center 76%",
+  "imageScale": 1,
+  "summary": "Feine Nadeln an ausgewählten Punkten der Ohrmuschel: Lernen Sie den Ablauf und die Möglichkeiten einer ergänzenden Begleitung kennen.",
+  "metaDescription": "Ohrakupunktur in Hamburg: Ablauf, Ruhephase, Vorbereitung und Grenzen der ergänzenden Behandlung bei Maria Alscher-Scheunemann.",
+  "seo": {
+    "title": "Ohrakupunktur in Hamburg | Ablauf & Informationen",
+    "description": "Ohrakupunktur in Hamburg: Ablauf, Ruhephase, Vorbereitung und Grenzen der ergänzenden Behandlung bei Maria Alscher-Scheunemann.",
+    "image": "/wordpress images/Ohrakupunktur-Mann-1.webp",
+    "noIndex": false
+  },
+  "imageAlt": "Symbolmotiv einer Ohrakupunktur: Ein Mann liegt, während feine Nadeln am Ohr gesetzt werden.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Aus dem vorhandenen Medienbestand der Originalwebsite übernommen. Nutzungsrechte und Freigabe für die neue Website sind vor Veröffentlichung durch die Praxis zu bestätigen.",
+  "process": [
+    "Wir besprechen Ihr Anliegen, bestehende Diagnosen und bisherige Behandlungen.",
+    "Sie erhalten eine Erklärung zur Ohrakupunktur, ihren Grenzen und dem vorgesehenen Ablauf.",
+    "Wenn eine Anwendung vereinbart wird, werden ausgewählte Ohrpunkte behandelt; anschließend folgt eine Ruhephase.",
+    "Wir besprechen Ihre Rückmeldung und entscheiden gemeinsam, ob weitere Termine sinnvoll erscheinen."
+  ],
+  "notice": "Ohrakupunktur ist hier als ergänzendes Verfahren beschrieben. Sie ersetzt keine ärztliche Diagnose oder notwendige Therapie. Ihre Eignung und mögliche Risiken werden vor einer Anwendung individuell besprochen.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "introduction": "Bei der Ohrakupunktur werden sehr feine Nadeln an ausgewählten Punkten der Ohrmuschel gesetzt. Die europäische Form wurde unter anderem durch den französischen Arzt Paul Nogier geprägt. In meiner Hamburger Praxis beginnt die Behandlung mit einem Gespräch über Ihre Beschwerden, bestehende Diagnosen und Ihre Erwartungen. Danach besprechen wir, ob diese Methode für Ihre persönliche Situation infrage kommt. Während der Anwendung liegen Sie auf einer Behandlungsliege und haben Zeit zur Ruhe. Ohrakupunktur verstehe ich als mögliche Ergänzung innerhalb eines individuellen Vorgehens. Sie ersetzt weder die ärztliche Abklärung noch eine notwendige medizinische Behandlung.",
+  "sections": [
+    {
+      "heading": "Was während einer Anwendung geschieht",
+      "body": "Nach dem Vorgespräch werden die vorgesehenen Punkte und das Vorgehen erklärt. Eine Anwendung kann fünf bis sieben Nadeln je Ohr und eine Ruhephase von etwa 25 Minuten umfassen. Diese Werte dienen zur Orientierung; Umfang und Dauer werden persönlich besprochen. Sie können jederzeit mitteilen, wenn sich etwas unangenehm anfühlt oder Sie eine Pause wünschen. Auch die Frage, ob Sie sich eine Behandlung mit Nadeln überhaupt vorstellen können, gehört in das Gespräch."
+    },
+    {
+      "heading": "Möglichkeiten mit Augenmaß einordnen",
+      "body": "Ohrakupunktur wird in der Naturheilkunde unter anderem bei Anliegen rund um Schmerzen, Stress und Frauengesundheit eingesetzt. Daraus folgt jedoch kein Nachweis dafür, dass die Methode bei jeder dieser Beschwerden wirksam ist. Forschungsergebnisse zu anderen Akupunkturformen lassen sich zudem nicht ohne Weiteres auf die Ohrakupunktur übertragen. Deshalb besprechen wir Ihr konkretes Anliegen, die Grenzen der Methode und die ärztliche Versorgung, bevor über eine ergänzende Anwendung entschieden wird. Feste Erfolgszusagen lassen sich daraus nicht ableiten."
+    }
+  ],
+  "patientQuestions": [
+    "Wie läuft eine Behandlung mit Nadeln am Ohr ab?",
+    "Kommt eine ergänzende Anwendung bei meinem bereits ärztlich abgeklärten Anliegen infrage?",
+    "Was muss ich wegen meiner Medikamente oder meiner bisherigen Erfahrungen mit Nadeln ansprechen?"
+  ],
+  "preparationNotes": [
+    "Bringen Sie vorhandene Befunde sowie eine Liste Ihrer Medikamente und Nahrungsergänzungsmittel mit.",
+    "Sprechen Sie Blutgerinnungsstörungen, Medikamente zur Blutverdünnung, Allergien und eine mögliche Schwangerschaft vorab an.",
+    "Teilen Sie mit, wenn Sie empfindlich auf Nadeln reagieren oder beim Liegen besondere Unterstützung benötigen."
+  ],
+  "faqs": [
+    {
+      "question": "Wie lange bleiben die Nadeln im Ohr?",
+      "answer": "Als Orientierung lässt sich eine Ruhephase von ungefähr 25 Minuten einplanen. Für den gesamten Termin kommt Zeit für das Gespräch und die Vorbereitung hinzu. Den für Sie vorgesehenen Ablauf und die Termindauer klären wir vorab."
+    },
+    {
+      "question": "Kann ich vorab über meine Sorge vor Nadeln sprechen?",
+      "answer": "Ja. Das Gespräch verpflichtet Sie zu keiner Behandlung. Wir klären zunächst, was Sie verunsichert, und besprechen, ob Sie sich eine Anwendung vorstellen können. Ihre Zustimmung und Ihre Rückmeldung sind entscheidend."
+    },
+    {
+      "question": "Wie viele Behandlungen sind nötig?",
+      "answer": "Dafür gibt es keine allgemeingültige Zahl. Anlass, Verlauf und Verträglichkeit werden individuell betrachtet. Ein fester Behandlungserfolg oder eine bestimmte Zahl von Sitzungen kann nicht zugesagt werden."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Originalseite der Praxis: Ohrakupunktur",
+      "url": "https://www.alscher-scheunemann.de/therapieverfahren/ohrakupunktur-hamburg/"
+    },
+    {
+      "label": "NCCIH: Akupunktur – Wirksamkeit und Sicherheit (englisch)",
+      "url": "https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety"
+    }
+  ]
+}

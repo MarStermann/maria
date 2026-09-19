@@ -1,0 +1,53 @@
+{
+  "type": "article",
+  "topicSlugs": ["naturheilkunde"],
+  "imagePosition": "center 52%",
+  "imageScale": 1,
+  "slug": "mikrobiom-warum-pauschale-darmkuren-nicht-weiterhelfen",
+  "title": "Mikrobiom: Warum eine pauschale Darmkur zu kurz greift",
+  "teaser": "Darmflora, Stuhltests und Probiotika sind nicht dasselbe. Worauf es bei der Einordnung von Verdauungsbeschwerden ankommt.",
+  "image": "/wordpress images/Darmschleimhaut-1.webp",
+  "imageAlt": "Schematische Darstellung von Darmschleimhaut, Schleimschicht und Mikroorganismen.",
+  "publishedAt": "2026-09-19",
+  "categories": [
+    "Darmgesundheit",
+    "Mikrobiologische Therapie"
+  ],
+  "serviceSlugs": [
+    "mikrobiologische-therapie"
+  ],
+  "complaintSlugs": [
+    "blaehungen",
+    "durchfall-verstopfung-wechselnde-verdauung",
+    "reizdarm-funktionelle-verdauungsbeschwerden",
+    "nahrungsmittelunvertraeglichkeiten"
+  ],
+  "relatedArticleSlugs": [
+    "heuschnupfen-beschwerden-und-begleitung-einordnen",
+    "pflanzenheilkunde-warum-die-auswahl-entscheidend-ist"
+  ],
+  "sources": [
+    "https://www.alscher-scheunemann.de/therapieverfahren/mikrobiologische-therapie/",
+    "https://www.dge.de/blog/2026/das-mikrobiom-update-fuer-die-ernaehrungsberatung/",
+    "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety",
+    "https://www.gesundheitsinformation.de/reizdarmsyndrom.html"
+  ],
+  "body": "Wer nach Informationen über Blähungen oder wechselnde Verdauung sucht, stößt schnell auf Begriffe wie „Darmflora aufbauen“ oder „Darmsanierung“. Sie klingen nach einem klaren Plan. Tatsächlich sagen sie noch wenig darüber aus, was die Beschwerden verursacht und welcher nächste Schritt sinnvoll ist.\n\n## Mikrobiom ist ein Forschungsfeld\n\nIm Darm lebt eine große Gemeinschaft von Mikroorganismen. Für diese Gemeinschaft wird häufig der Begriff Darmflora verwendet; im Zusammenhang mit ihrer Erforschung spricht man vom Mikrobiom. Bei einer mikrobiologischen Beratung stehen die Verdauungsbeschwerden und ihre bisherige Abklärung im Mittelpunkt.\n\nDie Forschung untersucht zahlreiche Zusammenhänge zwischen Mikroorganismen und Gesundheit. Ein beobachteter Unterschied zwischen Personengruppen beweist allerdings nicht, dass eine bestimmte Bakterienzusammensetzung einzelne Beschwerden verursacht. Beim Reizdarmsyndrom sind beispielsweise verschiedene Einflussfaktoren im Gespräch, deren Bedeutung nicht vollständig geklärt ist. [Das IQWiG erläutert diese Unsicherheiten.](https://www.gesundheitsinformation.de/reizdarmsyndrom.html)\n\nDeshalb ist weder jedes Verdauungsproblem eine „gestörte Darmflora“ noch jede Veränderung im Labor automatisch behandlungsbedürftig.\n\n## Was ein Stuhltest beantworten kann\n\nEine Stuhluntersuchung sollte eine konkrete medizinische Frage beantworten. Welche Untersuchung dafür geeignet ist, hängt vom Anlass ab. Ein allgemeines Mikrobiomprofil ist etwas anderes als eine gezielte Untersuchung auf Krankheitserreger oder bestimmte Entzündungszeichen.\n\nKommerzielle Mikrobiomtests liefern nicht automatisch verlässliche individuelle Therapie- oder Ernährungsempfehlungen. Die [Deutsche Gesellschaft für Ernährung weist auf die Grenzen solcher Tests hin](https://www.dge.de/blog/2026/das-mikrobiom-update-fuer-die-ernaehrungsberatung/). Vor einem Test lohnt sich deshalb die Frage: Was würde das Ergebnis am weiteren Vorgehen tatsächlich ändern?\n\nAuch Kosten, Aussagekraft und mögliche Folgeuntersuchungen sollten vorab verständlich sein. Ein umfangreicher Befund kann neue Fragen erzeugen, ohne die Ursache der Beschwerden zu klären.\n\n## Probiotika gezielt einordnen\n\nProbiotische Präparate enthalten lebende Mikroorganismen. Ob ein möglicher Nutzen zu erwarten ist, hängt unter anderem vom untersuchten Stamm und vom Anwendungsgebiet ab. Ergebnisse für ein Produkt lassen sich nicht auf sämtliche anderen Präparate übertragen.\n\nBei schweren Erkrankungen oder einem geschwächten Immunsystem können besondere Risiken bestehen. Die [Übersicht des NCCIH zu Probiotika](https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety) beschreibt sowohl Forschungsfragen als auch Sicherheitsgrenzen. Eine eigenständige, pauschale Produktauswahl lässt sich daraus nicht ableiten.\n\n## Mit der eigenen Geschichte beginnen\n\nFür eine Beratung sind Verlauf, bisherige Untersuchungen und tatsächlich verwendete Mittel oft der beste Anfang. Seit wann bestehen die Beschwerden? Was wurde bereits ärztlich abgeklärt? Welche Veränderungen haben Sie nach Behandlungen beobachtet? Bringen Sie vorhandene Befunde mit, ohne vorab weitere Tests zu bestellen.\n\nEine sorgfältige Begleitung nimmt Ihre individuelle Situation zum Ausgangspunkt. Dazu gehört, Unsicherheiten offen zu benennen und notwendige ärztliche Abklärung einzubeziehen. Mehr zum Angebot steht unter [Mikrobiologische Therapie](/therapieverfahren/mikrobiologische-therapie). Über [Kontakt](/kontakt) können Sie Ihre Fragen zum weiteren Vorgehen besprechen.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Nutzungsrechte vor Veröffentlichung mit der Praxisinhaberin prüfen.",
+  "seo": {
+    "title": "Mikrobiom und Darmkuren: Beschwerden einordnen",
+    "description": "Mikrobiom, Stuhltests und Probiotika unterscheiden: Warum Verdauungsbeschwerden eine individuelle Abklärung statt einer pauschalen Darmkur brauchen.",
+    "ogImage": "/wordpress images/Darmschleimhaut-1.webp",
+    "noIndex": false
+  },
+  "review": {
+    "status": "published",
+    "medicalReviewRequired": true,
+    "reviewedBy": "Veröffentlichung auf ausdrückliche Nutzerfreigabe im Projektauftrag",
+    "lastReviewedAt": "2026-09-19"
+  },
+  "wordpress": {
+    "originalUrl": "https://www.alscher-scheunemann.de/therapieverfahren/mikrobiologische-therapie/"
+  }
+}

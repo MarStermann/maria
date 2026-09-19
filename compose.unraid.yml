@@ -1,0 +1,46 @@
+services:
+  maria-website:
+    image: maria-website:${MARIA_VERSION:-local}
+    container_name: maria-website
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_SITE_URL: ${VITE_SITE_URL:-https://www.alscher-scheunemann.de}
+        VITE_ALLOW_INDEXING: ${VITE_ALLOW_INDEXING:-false}
+    ports:
+      - "${MARIA_BIND_IP:-192.168.178.101}:${MARIA_HTTP_PORT:-8097}:80"
+    depends_on:
+      maria-cms:
+        condition: service_healthy
+    volumes:
+      - ${MARIA_DATA_DIR:-/mnt/user/appdata/maria-website}/secrets/cms_htpasswd:/run/secrets/cms_htpasswd:ro
+    mem_limit: 128m
+    cpus: 0.5
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+  maria-cms:
+    image: maria-cms:${MARIA_VERSION:-local}
+    container_name: maria-cms
+    build:
+      context: .
+      dockerfile: deploy/cms/Dockerfile
+    restart: unless-stopped
+    init: true
+    mem_limit: 256m
+    cpus: 0.5
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+    volumes:
+      - ${MARIA_DATA_DIR:-/mnt/user/appdata/maria-website}/cms:/data
+      - ${MARIA_DATA_DIR:-/mnt/user/appdata/maria-website}/secrets/cms_git_key:/run/secrets/cms_git_key:ro
+      - ${MARIA_DATA_DIR:-/mnt/user/appdata/maria-website}/secrets/github_known_hosts:/run/secrets/github_known_hosts:ro

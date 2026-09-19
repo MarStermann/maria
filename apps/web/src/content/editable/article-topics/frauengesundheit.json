@@ -1,0 +1,6 @@
+{
+  "type": "articleTopic", "slug": "frauengesundheit", "title": "Frauengesundheit",
+  "description": "Raum für Fragen und Perspektiven rund um die Frauengesundheit.", "order": 2,
+  "seo": { "title": "Frauengesundheit – Themen und Beiträge", "description": "Beiträge zur Frauengesundheit im Blog von Maria Alscher-Scheunemann.", "noIndex": false },
+  "review": { "status": "published", "medicalReviewRequired": false }
+}

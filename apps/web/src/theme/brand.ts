@@ -24,6 +24,23 @@ export const brandTypography = {
 } as const;
 
 export const brandAsset = {
-  fileName: "Elegante Akupunktur- und Naturheilkunde Branding.png",
-  publicPath: "/Elegante Akupunktur- und Naturheilkunde Branding.png"
+  fileName: "Brand Image Neu.png",
+  publicPath: "/Brand Image Neu.png",
+  emblemPath: "/brand-neu-emblem.png",
+  heroBackgroundDesktopPath: "/brand-hero-background-desktop-v2.png",
+  heroBackgroundMobilePath: "/brand-hero-background-mobile-v2.png",
+  leftStillLifePath: "/brand-left-still-life.png",
+  botanicalLeftPath: "/brand-neu-botanical-cutout.png",
+  acupunctureEarPath: "/brand-generated-acupuncture-ear.png",
+  complaintsBodyPath: "/vitruvian-woman-complaints.webp",
+  complaintsXrayPaths: {
+    kopf: "/xray/xray-kopf.webp",
+    "seelisch-mental": "/xray/xray-seelisch-mental.webp",
+    "haut-haare": "/xray/xray-haut-haare.webp",
+    bewegungsapparat: "/xray/xray-bewegungsapparat.webp",
+    "atemwege-immunsystem": "/xray/xray-atemwege-immunsystem.webp",
+    "magen-darm": "/xray/xray-magen-darm.webp",
+    "frauenheilkunde-unterbauch": "/xray/xray-frauenheilkunde-unterbauch.webp"
+  },
+  rightMotifPath: "/brand-neu-soft-motif.png"
 } as const;

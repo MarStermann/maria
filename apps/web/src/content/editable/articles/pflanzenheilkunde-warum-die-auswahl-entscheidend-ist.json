@@ -1,0 +1,50 @@
+{
+  "type": "article",
+  "topicSlugs": ["naturheilkunde"],
+  "imagePosition": "center 74%",
+  "imageScale": 1,
+  "slug": "pflanzenheilkunde-warum-die-auswahl-entscheidend-ist",
+  "title": "Pflanzenheilkunde: Warum die Auswahl entscheidend ist",
+  "teaser": "Tee, Tropfen oder Fertigpräparat: Warum bei pflanzlichen Mitteln das konkrete Produkt und Ihre persönliche Situation zählen.",
+  "image": "/wordpress images/Pflanzenheilkunde-Homepage-1.webp",
+  "imageAlt": "Blühende Kräuter neben einer Teedose, einer Tropfenflasche und einer Arzneimittelpackung.",
+  "publishedAt": "2026-09-19",
+  "categories": [
+    "Therapieverfahren",
+    "Pflanzenheilkunde"
+  ],
+  "serviceSlugs": [
+    "pflanzenheilkunde"
+  ],
+  "complaintSlugs": [
+    "schlafstoerungen",
+    "menstruations-zyklusbeschwerden"
+  ],
+  "relatedArticleSlugs": [
+    "komplex-homoeopathie-begriffe-und-einordnung",
+    "wechseljahre-veraenderungen-in-ruhe-einordnen"
+  ],
+  "sources": [
+    "https://www.alscher-scheunemann.de/therapieverfahren/pflanzenheilkunde/",
+    "https://www.gesundheitsinformation.de/medikamenten-anwendung.html",
+    "https://www.bfarm.de/DE/Arzneimittel/_FAQ/Zulassung/Allgemeine-Fragen/faq-liste.html?cms_fid=566918"
+  ],
+  "body": "Ein Tee aus der Apotheke, eine Tropfenmischung und ein pflanzliches Fertigarzneimittel können auf den ersten Blick ähnlich wirken. Für eine sinnvolle Beratung ist es trotzdem wichtig, genau hinzusehen. Der Pflanzenname allein beantwortet noch nicht, ob ein Präparat für das eigene Anliegen geeignet ist.\n\n## Tradition und Forschung auseinanderhalten\n\nPflanzenheilkunde umfasst sowohl traditionelles Erfahrungswissen als auch die naturwissenschaftliche Beschäftigung mit pflanzlichen Inhaltsstoffen. Zum Praxisangebot gehören unter anderem individuell zusammengestellte Tees und Fertigpräparate.\n\nTraditionelle Anwendung und wissenschaftlicher Wirksamkeitsnachweis sind unterschiedliche Grundlagen. Auch die Registrierung eines traditionellen pflanzlichen Arzneimittels ist nicht mit einer Zulassung auf Grundlage klinischer Wirksamkeitsstudien gleichzusetzen. Das [Bundesinstitut für Arzneimittel und Medizinprodukte erklärt diesen Unterschied](https://www.bfarm.de/DE/Arzneimittel/_FAQ/Zulassung/Allgemeine-Fragen/faq-liste.html?cms_fid=566918).\n\nFür das Gespräch ist deshalb eine konkrete Frage hilfreich: Auf welcher Grundlage wird gerade dieses Mittel für mein Anliegen in Betracht gezogen? Eine verständliche Antwort sollte auch benennen, was unklar bleibt.\n\n## Das konkrete Produkt zählt\n\nBei einer Beratung sollten die genaue Bezeichnung, die Zusammensetzung und die Darreichungsform bekannt sein. Bringen Sie vorhandene Packungen oder eine gut lesbare Übersicht mit, wenn Sie bereits etwas einnehmen. Das gilt auch für selbst gekaufte Mittel, die Ihnen eine andere Person empfohlen hat.\n\nEine solche Bestandsaufnahme schafft Klarheit: Was wurde tatsächlich verwendet? Seit wann? Welche Veränderungen haben Sie bemerkt? Was möchten Sie beibehalten, und wobei wünschen Sie eine fachliche Einordnung? Sie müssen dafür keine eigenen Schlussfolgerungen über die Ursache Ihrer Beschwerden ziehen.\n\nNicht jedes zusätzliche Präparat ist ein notwendiger nächster Schritt. Fragen Sie auch, ob zunächst eine Untersuchung oder die Abstimmung mit der behandelnden Ärztin beziehungsweise dem behandelnden Arzt sinnvoller ist.\n\n## Vorhandene Medikamente mitdenken\n\nArzneimittel können sich gegenseitig beeinflussen. Eine vollständige Übersicht hilft, mögliche Wechselwirkungen zu berücksichtigen. Die [Informationen des IQWiG zur Medikamentenanwendung](https://www.gesundheitsinformation.de/medikamenten-anwendung.html) erläutern, warum dabei auch die Anwendungshinweise und der Beipackzettel wichtig sind.\n\nBesprechen Sie besondere Lebenssituationen wie Schwangerschaft oder Stillzeit ausdrücklich, bevor Sie ein neues Mittel verwenden. Dieser Artikel enthält bewusst keine Pflanzenauswahl, Dosierung oder Teerezeptur für einzelne Beschwerden. Eine allgemeine Empfehlung könnte die persönliche Situation und bereits bestehende Behandlungen nicht ausreichend berücksichtigen.\n\n## Ein überschaubarer nächster Schritt\n\nFür eine Entscheidung können Sie drei Punkte festhalten: Was ist das Ziel der Beratung? Welche Informationen fehlen noch? Und wie wird später beurteilt, ob die vereinbarte Vorgehensweise für Sie passend war?\n\nSo entsteht eine gemeinsame Grundlage, ohne dass Sie sich bereits im ersten Gespräch auf eine längere Behandlung festlegen müssen. Informationen zum Praxisangebot finden Sie unter [Pflanzenheilkunde](/therapieverfahren/pflanzenheilkunde). Für eine persönliche Einordnung können Sie [einen Termin anfragen](/kontakt). Eine naturheilkundliche Begleitung ersetzt keine notwendige ärztliche Diagnostik oder verordnete Behandlung.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Nutzungsrechte vor Veröffentlichung mit der Praxisinhaberin prüfen.",
+  "seo": {
+    "title": "Pflanzenheilkunde: Auswahl, Präparate und Sicherheit",
+    "description": "Was bei Pflanzenheilkunde zählt: konkrete Präparate, vorhandene Medikamente und die Unterschiede zwischen Tradition und wissenschaftlicher Prüfung.",
+    "ogImage": "/wordpress images/Pflanzenheilkunde-Homepage-1.webp",
+    "noIndex": false
+  },
+  "review": {
+    "status": "published",
+    "medicalReviewRequired": true,
+    "reviewedBy": "Veröffentlichung auf ausdrückliche Nutzerfreigabe im Projektauftrag",
+    "lastReviewedAt": "2026-09-19"
+  },
+  "wordpress": {
+    "originalUrl": "https://www.alscher-scheunemann.de/therapieverfahren/pflanzenheilkunde/"
+  }
+}

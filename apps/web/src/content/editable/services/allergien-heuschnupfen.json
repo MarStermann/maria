@@ -1,0 +1,76 @@
+{
+  "title": "Allergien und Heuschnupfen",
+  "slug": "allergien-heuschnupfen",
+  "image": "/wordpress images/Heuschnupfen-1.webp",
+  "imagePosition": "center 88%",
+  "imageScale": 1,
+  "summary": "Saisonale Beschwerden und den bisherigen Verlauf besprechen – mit klarer Einordnung naturheilkundlicher Ergänzungen zur allergologischen Behandlung.",
+  "metaDescription": "Allergien und Heuschnupfen in Hamburg: Beratung zu Verlauf, Vorbereitung und Grenzen naturheilkundlicher Begleitung neben der ärztlichen Therapie.",
+  "seo": {
+    "title": "Allergien & Heuschnupfen | Ergänzende Beratung Hamburg",
+    "description": "Allergien und Heuschnupfen in Hamburg: Beratung zu Verlauf, Vorbereitung und Grenzen naturheilkundlicher Begleitung neben der ärztlichen Therapie.",
+    "image": "/wordpress images/Heuschnupfen-1.webp",
+    "noIndex": false
+  },
+  "imageAlt": "Symbolmotiv zu Heuschnupfen: Eine Frau hält im Freien neben einem blühenden Baum ein Taschentuch an die Nase.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Aus dem vorhandenen Medienbestand der Originalwebsite übernommen. Nutzungsrechte und Freigabe für die neue Website sind vor Veröffentlichung durch die Praxis zu bestätigen.",
+  "process": [
+    "Wir besprechen Auslöser, zeitlichen Verlauf und die Auswirkungen der Beschwerden auf Ihren Alltag.",
+    "Vorhandene allergologische Befunde und Ihre bisherige Behandlung werden einbezogen.",
+    "Mögliche ergänzende Verfahren werden mit ihren Grenzen und offenen Fragen erklärt.",
+    "Wir halten nächste Schritte fest und klären, welche Fragen in die behandelnde ärztliche Praxis gehören."
+  ],
+  "notice": "Die Begleitung ersetzt keine allergologische Diagnostik, Asthmabehandlung oder verordnete Medikamente. Bei akuter Atemnot oder einer schweren allergischen Reaktion ist sofortige medizinische Hilfe erforderlich.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "introduction": "Wenn die Nase läuft, die Augen jucken oder der Frühling anstrengend wird, entstehen oft Fragen zur bisherigen Allergiebehandlung. In meiner Praxis können Sie Ihr Anliegen und Ihre Erfahrungen in Ruhe besprechen. Dabei interessieren uns bekannte Auslöser, der zeitliche Verlauf und bereits eingesetzte Medikamente. Eine gesicherte allergologische Diagnose und die ärztliche Behandlung bleiben die Grundlage. Im Gespräch ordnen wir ein, welche naturheilkundlichen Ergänzungen für Sie überhaupt infrage kommen und wo ihre Grenzen liegen. Es wird weder eine Heilung der Allergie noch eine verlässliche Veränderung der Allergiebereitschaft versprochen. Ziel des Gesprächs ist eine verständliche Orientierung für Ihre nächsten Schritte.",
+  "sections": [
+    {
+      "heading": "Die persönliche Allergiegeschichte verstehen",
+      "body": "Treten Ihre Beschwerden nur zu bestimmten Jahreszeiten auf oder begleiten sie Sie länger? Welche Auslöser wurden bereits festgestellt und wie kommen Sie mit Ihrer Behandlung zurecht? Diese Fragen helfen, das Gespräch zu strukturieren. Eine Beratung kann bereits vor der belastenden Jahreszeit beginnen. Das schafft Zeit, Befunde und offene Fragen zu ordnen. Auch während der Saison ist ein Gespräch möglich. Akute oder neue Beschwerden sollten dabei stets angemessen ärztlich abgeklärt werden."
+    },
+    {
+      "heading": "Ergänzende Verfahren richtig einordnen",
+      "body": "Zu den naturheilkundlichen Gesprächsthemen bei Allergien gehören Ohrakupunktur, Fußreflexzonentherapie und mikrobiologische Ansätze. Daraus lässt sich keine allgemeine Wirksamkeit gegen Heuschnupfen ableiten. Diese Ansätze sind auch nicht mit einer ärztlichen allergenspezifischen Immuntherapie gleichzusetzen. Für Heuschnupfen stehen medizinische Behandlungsmöglichkeiten zur Verfügung, die mit der behandelnden Praxis besprochen werden können. Falls Sie Medikamente nicht gut vertragen, lohnt sich eine ärztliche Rücksprache zu Alternativen. Naturheilkundliche Beratung ist kein Anlass, verordnete Allergie- oder Asthmamedikamente eigenständig abzusetzen."
+    }
+  ],
+  "patientQuestions": [
+    "Wie kann ich meine Beschwerden und Auslöser vor der nächsten Pollensaison übersichtlich festhalten?",
+    "Wie ordnen sich naturheilkundliche Verfahren neben meiner bestehenden Allergiebehandlung ein?",
+    "Welche Fragen sollte ich bei Nebenwirkungen meiner Medikamente ärztlich klären lassen?"
+  ],
+  "preparationNotes": [
+    "Bringen Sie vorhandene Allergietests, Befunde und gegebenenfalls Ihren Allergiepass mit.",
+    "Notieren Sie Jahreszeiten, Situationen und bekannte Auslöser, bei denen Beschwerden auftreten.",
+    "Erstellen Sie eine Liste Ihrer Allergie- und Asthmamedikamente und halten Sie bisherige Verträglichkeitserfahrungen fest."
+  ],
+  "faqs": [
+    {
+      "question": "Wann ist ein guter Zeitpunkt für ein Gespräch?",
+      "answer": "Bei saisonalen Beschwerden kann ein Termin vor der üblichen Belastungszeit helfen, Befunde und Fragen in Ruhe zu ordnen. Eine Beratung ist auch während der Saison möglich; akute Beschwerden brauchen gegebenenfalls ärztliche Versorgung."
+    },
+    {
+      "question": "Ersetzt die Begleitung eine Hyposensibilisierung?",
+      "answer": "Nein. Die allergenspezifische Immuntherapie ist ein eigenes ärztliches Behandlungsverfahren. Naturheilkundliche Methoden sind damit nicht gleichzusetzen und sollten eine empfohlene allergologische Behandlung nicht ersetzen."
+    },
+    {
+      "question": "Was ist bei Atembeschwerden zu beachten?",
+      "answer": "Neue oder zunehmende Atembeschwerden gehören umgehend medizinisch abgeklärt. Bei akuter Atemnot ist der Notruf 112 richtig. Warten Sie in einer solchen Situation nicht auf einen Termin zur naturheilkundlichen Beratung."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Originalseite der Praxis: Heuschnupfen und Allergiebegleitung",
+      "url": "https://www.alscher-scheunemann.de/therapieverfahren/heuschnupfen-naturheilkundliche-allergiebehandlung/"
+    },
+    {
+      "label": "IQWiG: Heuschnupfen und seine Behandlung",
+      "url": "https://www.gesundheitsinformation.de/heuschnupfen.html"
+    }
+  ]
+}

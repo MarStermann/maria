@@ -1,0 +1,50 @@
+{
+  "type": "article",
+  "topicSlugs": ["frauengesundheit","naturheilkunde"],
+  "imagePosition": "center bottom",
+  "imageScale": 1.65,
+  "slug": "zyklusbeschwerden-gut-vorbereitet-ins-gespraech",
+  "title": "Zyklusbeschwerden: Beobachtungen, die im Gespräch helfen",
+  "teaser": "Blutung, Schmerzen und Alltag zusammen betrachten: Welche Informationen helfen können, Beschwerden sorgfältig einzuordnen.",
+  "image": "/wordpress images/Frauenheilkunde-Homepage.webp",
+  "imageAlt": "Blumen und eine schematische Darstellung der Gebärmutter als Motiv zur Frauenheilkunde.",
+  "publishedAt": "2026-09-19",
+  "categories": [
+    "Frauenheilkunde",
+    "Zyklus"
+  ],
+  "serviceSlugs": [
+    "naturheilkundliche-frauenheilkunde"
+  ],
+  "complaintSlugs": [
+    "menstruations-zyklusbeschwerden",
+    "pms-praemenstruelles-syndrom",
+    "endometriose-myome"
+  ],
+  "relatedArticleSlugs": [
+    "wechseljahre-veraenderungen-in-ruhe-einordnen",
+    "kinderwunsch-begleitung-ohne-erfolgsdruck"
+  ],
+  "sources": [
+    "https://www.alscher-scheunemann.de/therapieverfahren/naturheilkundliche-frauenheilkunde/",
+    "https://www.gesundheitsinformation.de/untersuchungen-bei-endometriose.html"
+  ],
+  "body": "„Vor der Periode geht es mir anders“ kann vieles bedeuten. Vielleicht stehen Schmerzen im Vordergrund, vielleicht verändert sich die Blutung oder es fällt schwerer, den Alltag zu bewältigen. Eine genaue Beschreibung macht Ihr Anliegen greifbarer. Sie müssen dafür weder eine medizinische Fachsprache beherrschen noch selbst eine Diagnose finden.\n\n## Ihre Beobachtung ist der Ausgangspunkt\n\nZyklusbeschwerden, PMS und die ergänzende Begleitung bei bereits bekannten gynäkologischen Erkrankungen gehören zu den Themen der naturheilkundlichen Frauenheilkunde. Dabei ist die Lebenssituation ebenso Teil des Gesprächs wie die körperliche Beschwerde.\n\nWenn Sie bereits Notizen haben, können diese helfen, sich an den Verlauf zu erinnern. Was ist neu? Was wiederholt sich? Wann beginnt eine Veränderung, und wie lange hält sie an? Es geht um eine verständliche Schilderung, nicht um eine lückenlose Datensammlung oder die perfekte Zykluskurve.\n\nAuch wenn sich kein klares Muster erkennen lässt, sind Ihre Beschwerden ein berechtigter Anlass für ein Gespräch. Unregelmäßigkeiten in Ihren Aufzeichnungen machen die Erfahrung nicht weniger wichtig.\n\n## Den Alltag mitbeschreiben\n\nDie Stärke eines Symptoms lässt sich nicht allein an einer Zahl festmachen. Erzählen Sie auch, was im Alltag dadurch schwieriger wird: Können Sie arbeiten, schlafen, sich bewegen oder Verabredungen einhalten? Gibt es Zeiten, in denen Sie sich zurückziehen müssen?\n\nBei der Abklärung möglicher Endometriose spielen beispielsweise Ort, Dauer und Ausprägung der Schmerzen sowie ihre Auswirkungen eine Rolle. Das [IQWiG beschreibt, welche Informationen im ärztlichen Gespräch hilfreich sind](https://www.gesundheitsinformation.de/untersuchungen-bei-endometriose.html). Daraus folgt jedoch nicht, dass Zyklusbeschwerden automatisch auf Endometriose hinweisen.\n\nNotieren Sie nach Möglichkeit auch, welche Behandlungen Sie schon versucht haben und was Sie dabei erlebt haben. Eine unveränderte oder schwer einzuordnende Reaktion ist ebenfalls eine wichtige Information.\n\n## Ärztliche Abklärung und Begleitung abstimmen\n\nNaturheilkundliche Begleitung ersetzt keine gynäkologische Untersuchung. Gynäkologische Untersuchungen finden nicht in der Naturheilpraxis statt.\n\nVorhandene Befunde und verordnete Medikamente helfen, den bisherigen Weg zu verstehen. Auch geplante Untersuchungen sollten bekannt sein. So lässt sich im Gespräch klären, welche Frage bereits beantwortet ist, was noch offen bleibt und wo ärztliche Rücksprache benötigt wird.\n\nEs ist nicht Ihre Aufgabe, unterschiedliche Empfehlungen allein miteinander zu vereinbaren. Sprechen Sie Widersprüche oder Unsicherheiten direkt an. Vor einer zusätzlichen Maßnahme sollte verständlich sein, welches Ziel sie verfolgt und wie sie sich in Ihre Betreuung einfügt.\n\n## Mit einem Anliegen beginnen\n\nÜberlegen Sie für den Termin, welcher Punkt Sie aktuell am stärksten belastet. Das schafft einen Anfang, ohne andere Themen auszublenden. Fragen Sie auch nach dem vorgesehenen Rahmen und danach, wie der Verlauf gemeinsam besprochen wird.\n\nAuf der Seite [Naturheilkundliche Frauenheilkunde](/therapieverfahren/naturheilkundliche-frauenheilkunde) finden Sie den Überblick zum Angebot. Über [Kontakt](/kontakt) können Sie ein persönliches Gespräch anfragen.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Nutzungsrechte vor Veröffentlichung mit der Praxisinhaberin prüfen.",
+  "seo": {
+    "title": "Zyklusbeschwerden: Das Gespräch gut vorbereiten",
+    "description": "Welche Beobachtungen bei Zyklusbeschwerden helfen: Verlauf, Alltag, vorhandene Befunde und die Rolle ergänzender naturheilkundlicher Begleitung.",
+    "ogImage": "/wordpress images/Frauenheilkunde-Homepage.webp",
+    "noIndex": false
+  },
+  "review": {
+    "status": "published",
+    "medicalReviewRequired": true,
+    "reviewedBy": "Veröffentlichung auf ausdrückliche Nutzerfreigabe im Projektauftrag",
+    "lastReviewedAt": "2026-09-19"
+  },
+  "wordpress": {
+    "originalUrl": "https://www.alscher-scheunemann.de/therapieverfahren/naturheilkundliche-frauenheilkunde/"
+  }
+}

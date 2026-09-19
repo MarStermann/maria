@@ -1,0 +1,46 @@
+{
+  "type": "article",
+  "topicSlugs": ["naturheilkunde"],
+  "imagePosition": "center bottom",
+  "imageScale": 1.65,
+  "slug": "komplex-homoeopathie-begriffe-und-einordnung",
+  "title": "Komplex-Homöopathie: Begriffe verstehen und Grenzen kennen",
+  "teaser": "Was ein Komplexmittel ist, wie es sich von Pflanzenheilkunde unterscheidet und welche Fragen zu Wirkung und Sicherheit wichtig sind.",
+  "image": "/wordpress images/Homoeopahtie-pdf-1-scaled-1.webp",
+  "imageAlt": "Symbolmotiv mit Globuli, Tropfenflasche und Ampullen neben Pflanzen.",
+  "publishedAt": "2026-09-19",
+  "categories": [
+    "Therapieverfahren",
+    "Komplex-Homöopathie"
+  ],
+  "serviceSlugs": [
+    "komplex-homoeopathie"
+  ],
+  "complaintSlugs": [],
+  "relatedArticleSlugs": [
+    "pflanzenheilkunde-warum-die-auswahl-entscheidend-ist"
+  ],
+  "sources": [
+    "https://www.alscher-scheunemann.de/therapieverfahren/komplex-homoeopathie/",
+    "https://www.nccih.nih.gov/health/homeopathy",
+    "https://www.bfarm.de/DE/Arzneimittel/_FAQ/Zulassung/Allgemeine-Fragen/faq-liste.html?cms_fid=566918"
+  ],
+  "body": "Die Begriffe „pflanzlich“, „homöopathisch“ und „natürlich“ werden im Alltag häufig nebeneinander verwendet. Für eine informierte Entscheidung sind die Unterschiede jedoch wesentlich. Ein Blick auf das konkrete Präparat und auf die wissenschaftliche Einordnung ist hilfreicher als ein allgemeines Etikett.\n\n## Was ein Komplexmittel bezeichnet\n\nKomplex-Homöopathie bezeichnet die Anwendung von Präparaten, die mehrere homöopathische Einzelmittel enthalten. Damit unterscheidet sie sich von der klassischen Homöopathie, bei der ein einzelnes Mittel ausgewählt wird.\n\nZur homöopathischen Herstellung gehört die sogenannte Potenzierung: Ausgangsstoffe werden in bestimmten Schritten verdünnt und verschüttelt oder verrieben. Komplexmittel können unterschiedliche Verdünnungsstufen enthalten. Aus dem Begriff „homöopathisch“ allein lässt sich daher nicht zuverlässig ablesen, welche Stoffmengen oder Hilfsstoffe ein Produkt enthält.\n\nDie Pflanzenheilkunde ist ein eigenständiges Verfahren. Auch wenn ein homöopathischer Ausgangsstoff pflanzlich ist, sind dessen Verarbeitung und die fachliche Beurteilung nicht mit einem pflanzlichen Arzneimittel gleichzusetzen.\n\n## Was über die Wirksamkeit bekannt ist\n\nFür Homöopathie gibt es keine belastbaren wissenschaftlichen Belege für eine spezifische Wirksamkeit über Placeboeffekte hinaus. Das [NCCIH fasst den Forschungsstand und die Sicherheitsfragen zusammen](https://www.nccih.nih.gov/health/homeopathy). Aussagen, eine Mischung verstärke automatisch die Wirkung ihrer Bestandteile, lassen sich daraus nicht ableiten.\n\nAuch eine Arzneimittelregistrierung ist kein klinischer Wirksamkeitsnachweis. Bei registrierten homöopathischen Arzneimitteln gelten besondere Regeln. Das [BfArM erläutert die Unterschiede zwischen Registrierung und Zulassung](https://www.bfarm.de/DE/Arzneimittel/_FAQ/Zulassung/Allgemeine-Fragen/faq-liste.html?cms_fid=566918).\n\nEine persönliche positive Erfahrung verdient im Gespräch Aufmerksamkeit. Sie beantwortet für sich genommen aber nicht, ob gerade das Präparat eine Veränderung verursacht hat. Diese Trennung hilft dabei, Erwartungen realistisch zu halten und notwendige medizinische Behandlung nicht zu verzögern.\n\n## Sicherheit am konkreten Präparat prüfen\n\nHomöopathische Produkte sind nicht automatisch frei von Risiken. Manche enthalten relevante Mengen an Ausgangsstoffen; flüssige Präparate können Alkohol enthalten. Mögliche unerwünschte Wirkungen und Wechselwirkungen sind deshalb abhängig vom jeweiligen Produkt zu betrachten.\n\nBringen Sie die genaue Bezeichnung mit, wenn Sie bereits ein Mittel verwenden. Vor einer zusätzlichen Anwendung sollten bestehende Medikamente und Erkrankungen bekannt sein. Änderungen verordneter Behandlungen gehören in die Abstimmung mit der behandelnden Ärztin oder dem behandelnden Arzt.\n\nNeue oder zunehmende Beschwerden sollten nicht als notwendige „Erstverschlimmerung“ vorausgesetzt werden. Sie benötigen eine fachliche Einordnung.\n\n## Fragen, die eine Entscheidung erleichtern\n\nSie können im Gespräch konkret nachfragen: Warum wird dieses Mittel vorgeschlagen? Welche Unsicherheiten werden dabei berücksichtigt? Welche Alternativen gibt es? Welche Kosten und welcher Zeitaufwand sind vorgesehen?\n\nSie dürfen eine Empfehlung prüfen und sich dagegen entscheiden. Ein Gespräch kann auch dann hilfreich sein, wenn am Ende kein zusätzliches Mittel eingesetzt wird. Informationen zum beschriebenen Angebot finden Sie unter [Komplex-Homöopathie](/therapieverfahren/komplex-homoeopathie); persönliche Fragen können Sie über [Kontakt](/kontakt) an die Praxis richten.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Nutzungsrechte vor Veröffentlichung mit der Praxisinhaberin prüfen.",
+  "seo": {
+    "title": "Komplex-Homöopathie: Begriffe, Nachweise und Grenzen",
+    "description": "Was Komplex-Homöopathie bedeutet: Zusammensetzung, Unterschied zur Pflanzenheilkunde und eine transparente Einordnung von Wirksamkeit und Sicherheit.",
+    "ogImage": "/wordpress images/Homoeopahtie-pdf-1-scaled-1.webp",
+    "noIndex": false
+  },
+  "review": {
+    "status": "published",
+    "medicalReviewRequired": true,
+    "reviewedBy": "Veröffentlichung auf ausdrückliche Nutzerfreigabe im Projektauftrag",
+    "lastReviewedAt": "2026-09-19"
+  },
+  "wordpress": {
+    "originalUrl": "https://www.alscher-scheunemann.de/therapieverfahren/komplex-homoeopathie/"
+  }
+}

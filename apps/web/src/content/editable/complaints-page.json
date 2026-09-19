@@ -1,0 +1,96 @@
+{
+  "seo": {
+    "title": "Beschwerden ganzheitlich betrachten in Hamburg",
+    "description": "Finden Sie Orientierung zu Ihren Beschwerden: Körperregionen, mögliche Zusammenhänge und naturheilkundliche Begleitung bei Maria Alscher-Scheunemann in Hamburg.",
+    "image": "/og-default.svg",
+    "noIndex": false
+  },
+  "eyebrow": "Beschwerden verstehen",
+  "title": "Wo zeigen sich Ihre Beschwerden?",
+  "lead": "Jedes Anliegen ist persönlich. Wählen Sie eine Körperregion oder suchen Sie nach Ihren Beschwerden – und lernen Sie mögliche Zusammenhänge und Verfahren meiner Praxis kennen.",
+  "navigation": {
+    "regionsLabel": "Körperregionen",
+    "figureAlt": "Vitruvianisch inspirierte Frauenfigur zur Auswahl von Körperregionen",
+    "figureCaption": "Wählen Sie eine Körperregion. In der Detailansicht können Sie auch innere Bereiche erkunden.",
+    "selectLabel": "auswählen",
+    "openDetailLabel": "Detailansicht öffnen",
+    "backgroundImage": ""
+  },
+  "search": {
+    "label": "Beschwerde oder Körperbereich suchen",
+    "placeholder": "z. B. Akne, Migräne, Darm oder Eierstöcke",
+    "clearLabel": "Suche leeren",
+    "resultsLabel": "Treffer",
+    "resultsTitle": "Ergebnisse für",
+    "resultsDescription": "Die Suche berücksichtigt Beschwerden, Körperregionen und innere Bereiche."
+  },
+  "detail": {
+    "label": "Detail",
+    "closeLabel": "Gesamtansicht",
+    "caption": "Schematische Innenansicht zur Navigation – keine anatomische oder diagnostische Darstellung.",
+    "innerAreasLabel": "Inneren Bereich wählen"
+  },
+  "cards": {
+    "detailLinkLabel": "Beschwerde im Detail",
+    "therapiesLabel": "Mögliche Verfahren in meiner Praxis"
+  },
+  "empty": {
+    "title": "Noch kein passender Eintrag",
+    "description": "Versuchen Sie einen allgemeineren Begriff oder wählen Sie eine Körperregion.",
+    "resetLabel": "Suche zurücksetzen"
+  },
+  "bubbles": [
+    {
+      "regionId": "kopf",
+      "title": "Kopf & Sinne",
+      "examples": "Kopfschmerzen, Migräne und weitere Beschwerden"
+    },
+    {
+      "regionId": "seelisch-mental",
+      "title": "Seelisch & mental",
+      "examples": "Stress, Erschöpfung, innere Unruhe und Schlaf"
+    },
+    {
+      "regionId": "haut-haare",
+      "title": "Haut & Haare",
+      "examples": "Akne, empfindliche Haut und Haarausfall"
+    },
+    {
+      "regionId": "atemwege-immunsystem",
+      "title": "Immunsystem",
+      "examples": "Allergien, Heuschnupfen und häufige Infekte"
+    },
+    {
+      "regionId": "bewegungsapparat",
+      "title": "Rücken & Gelenke",
+      "examples": "Nacken, Verspannungen und Beweglichkeit"
+    },
+    {
+      "regionId": "magen-darm",
+      "title": "Magen & Darm",
+      "examples": "Völlegefühl, Blähungen und Verdauungsbeschwerden"
+    },
+    {
+      "regionId": "frauenheilkunde-unterbauch",
+      "title": "Unterbauch",
+      "examples": "Zyklus, Hormone, Blase und Wechseljahre"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Individuell einordnen",
+    "title": "Mehrere Beschwerden oder noch unsicher?",
+    "description": "Im Erstgespräch werden Verlauf, bestehende Diagnosen und persönliche Situation gemeinsam betrachtet. Daraus ergibt sich, welche nächsten Schritte sinnvoll sein können – und wann eine ärztliche Abklärung Vorrang hat.",
+    "primaryLabel": "Termin anfragen",
+    "secondaryLabel": "Alle Verfahren"
+  },
+  "medicalNote": {
+    "title": "Medizinischer Hinweis",
+    "text": "Die Beschwerden-Navigation ersetzt keine Diagnose, ärztliche Abklärung, Notfallversorgung oder verordnete Therapie. Bei plötzlich starken Beschwerden, Atemnot, Lähmungs- oder Ausfallerscheinungen, hohem Fieber, ungeklärten Blutungen oder einer akuten psychischen Krise wenden Sie sich bitte sofort an den Rettungsdienst oder eine ärztliche Stelle."
+  },
+  "review": {
+    "status": "draft",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

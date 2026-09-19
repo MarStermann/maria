@@ -1,0 +1,30 @@
+{
+  "eyebrow": "Aus der Praxis",
+  "title": "Wissen & Impulse",
+  "lead": "Gedanken und Hintergründe zu Naturheilkunde, Frauengesundheit und dem Alltag in meiner Praxis. In Ruhe lesen und Neues entdecken.",
+  "news": {
+    "enabled": true,
+    "heading": "Aktuelles",
+    "description": "Neuigkeiten und aktuelle Hinweise aus der Praxis.",
+    "layout": "featured",
+    "limit": 3
+  },
+  "newsEmpty": "Zurzeit gibt es keine aktuellen Hinweise. Entdecken Sie in der Zwischenzeit die Themenbereiche.",
+  "topicsTitle": "Nach Themen entdecken",
+  "topicsDescription": "Wählen Sie den Bereich, der Sie interessiert. Hier finden Sie die passenden Beiträge an einem Ort.",
+  "allArticlesTitle": "Alle Artikel",
+  "emptyTitle": "Wissen und Impulse aus der Praxis",
+  "emptyDescription": "Erfahren Sie mehr über meine Arbeitsweise und die Therapieverfahren in meiner Praxis.",
+  "seo": {
+    "title": "Blog – Wissen und Impulse aus der Praxis",
+    "description": "Beiträge von Maria Alscher-Scheunemann zu Naturheilkunde, Frauengesundheit und dem Praxisalltag. Hintergründe und Gedanken zum Weiterlesen.",
+    "image": "/og-default.svg",
+    "noIndex": false
+  },
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": false,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

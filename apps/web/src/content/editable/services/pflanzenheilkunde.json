@@ -1,0 +1,80 @@
+{
+  "title": "Pflanzenheilkunde",
+  "slug": "pflanzenheilkunde",
+  "image": "/wordpress images/Pflanzenheilkunde-Homepage-1.webp",
+  "imagePosition": "center 74%",
+  "imageScale": 1,
+  "summary": "Heilpflanzen als Tee oder Fertigpräparat: Anwendung, Verträglichkeit und mögliche Wechselwirkungen werden gemeinsam sorgfältig eingeordnet.",
+  "metaDescription": "Pflanzenheilkunde in Hamburg: Informationen zu Heilpflanzentees, Präparaten, Verträglichkeit und Beratung bei Maria Alscher-Scheunemann.",
+  "seo": {
+    "title": "Pflanzenheilkunde in Hamburg | Heilpflanzen & Beratung",
+    "description": "Pflanzenheilkunde in Hamburg: Informationen zu Heilpflanzentees, Präparaten, Verträglichkeit und Beratung bei Maria Alscher-Scheunemann.",
+    "image": "/wordpress images/Pflanzenheilkunde-Homepage-1.webp",
+    "noIndex": false
+  },
+  "imageAlt": "Symbolmotiv mit Heilpflanzen, einer Teedose, Tabletten und einer Tropfflasche auf einem Holztisch.",
+  "imageSource": "Symbolbild · Originalwebsite der Praxis",
+  "imagePermission": "Aus dem vorhandenen Medienbestand der Originalwebsite übernommen. Nutzungsrechte und Freigabe für die neue Website sind vor Veröffentlichung durch die Praxis zu bestätigen.",
+  "process": [
+    "Wir besprechen Ihr Anliegen und sichten vorhandene Befunde sowie bereits verwendete Präparate.",
+    "Mögliche pflanzliche Zubereitungen werden mit ihren Anwendungshinweisen, Grenzen und Wechselwirkungen eingeordnet.",
+    "Wenn eine Anwendung vereinbart wird, besprechen wir das konkrete Präparat und die dazugehörigen Hinweise.",
+    "Bei einem Folgetermin werden Verträglichkeit und Ihre Beobachtungen gemeinsam bewertet."
+  ],
+  "notice": "Pflanzliche Mittel sind nicht grundsätzlich nebenwirkungsfrei. Eine Empfehlung ersetzt keine ärztliche Abklärung. Wechselwirkungen, Gegenanzeigen und besondere Lebenssituationen müssen vor der Anwendung berücksichtigt werden.",
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "introduction": "Die Pflanzenheilkunde, auch Phytotherapie genannt, beschäftigt sich mit der Anwendung von Heilpflanzen und ihren Zubereitungen. In meiner Praxis gehören dazu beispielsweise individuell zusammengestellte Tees und pflanzliche Fertigpräparate. Dabei treffen traditionelles Erfahrungswissen und die wissenschaftliche Betrachtung einzelner Pflanzen und ihrer Inhaltsstoffe aufeinander. Für die Beratung ist beides klar auseinanderzuhalten: Nicht jede überlieferte Anwendung ist ausreichend untersucht. Im Mittelpunkt steht deshalb die Frage, welches konkrete Präparat zu Ihrer Situation passen könnte und welche Grenzen oder Risiken zu beachten sind. Vor einer Empfehlung besprechen wir Ihr Anliegen, vorhandene Befunde und Ihre bisherige Medikation.",
+  "sections": [
+    {
+      "heading": "Tee, Extrakt oder Fertigpräparat",
+      "body": "Pflanzen können in unterschiedlichen Formen verwendet werden. Ein Tee ist nicht mit einem konzentrierten Extrakt oder einer Tablette gleichzusetzen. Auch verschiedene Produkte mit derselben Pflanze können sich in ihrer Zusammensetzung unterscheiden. Deshalb geht es im Gespräch um die genaue Zubereitung und den vorgesehenen Einsatz. In meiner Praxis gehören sowohl Teemischungen als auch pflanzliche Fertigarzneimittel zu den möglichen Anwendungen. Welche Form gegebenenfalls infrage kommt, wird anhand Ihres Anliegens und der verfügbaren Informationen zum jeweiligen Produkt besprochen."
+    },
+    {
+      "heading": "Natürlich heißt nicht automatisch unbedenklich",
+      "body": "Auch pflanzliche Mittel können Nebenwirkungen haben und sich mit anderen Medikamenten beeinflussen. Eine sorgfältige Bestandsaufnahme gehört deshalb zur Beratung: Welche Arzneimittel, Tees und Nahrungsergänzungsmittel nehmen Sie bereits? Gibt es Allergien, Vorerkrankungen oder besondere Lebenssituationen? Gerade in Schwangerschaft und Stillzeit muss eine Anwendung einzeln geprüft werden. Die Entscheidung orientiert sich am konkreten Präparat und seiner Datenlage. Verordnete Medikamente sollten Sie wegen einer pflanzlichen Ergänzung nicht eigenständig reduzieren oder absetzen; notwendige Änderungen gehören in ärztliche Hände."
+    }
+  ],
+  "patientQuestions": [
+    "Welche Unterschiede gibt es zwischen einem Heilpflanzentee und einem Fertigpräparat?",
+    "Passt ein pflanzliches Mittel zu meinen bereits eingenommenen Medikamenten?",
+    "Wie lassen sich traditionelle Anwendung und wissenschaftlich untersuchte Wirkung unterscheiden?"
+  ],
+  "preparationNotes": [
+    "Notieren Sie alle Medikamente, pflanzlichen Mittel, Tees und Nahrungsergänzungsmittel, die Sie regelmäßig verwenden.",
+    "Bringen Sie bei bereits genutzten Produkten den genauen Namen oder ein Foto der Verpackung mit.",
+    "Informieren Sie über Allergien, Vorerkrankungen sowie eine bestehende oder geplante Schwangerschaft und Stillzeit."
+  ],
+  "faqs": [
+    {
+      "question": "Sind pflanzliche Mittel immer frei von Nebenwirkungen?",
+      "answer": "Nein. Je nach Pflanze und Zubereitung sind Nebenwirkungen und Wechselwirkungen möglich. Auch frei verkäufliche Produkte sollten deshalb in der Medikamentenliste stehen und vor einer Kombination geprüft werden."
+    },
+    {
+      "question": "Kann ich meine bisherigen Medikamente weiter einnehmen?",
+      "answer": "Verordnete Medikamente sollen nicht eigenständig verändert werden. Bringen Sie Ihre Medikamentenliste mit, damit mögliche Wechselwirkungen einer pflanzlichen Ergänzung berücksichtigt und nötige Rückfragen ärztlich geklärt werden können."
+    },
+    {
+      "question": "Erhalte ich immer eine individuelle Teemischung?",
+      "answer": "Nein. Teemischungen und pflanzliche Fertigarzneimittel sind unterschiedliche Möglichkeiten in meiner Praxis. Ob überhaupt ein pflanzliches Mittel und gegebenenfalls welche Form infrage kommt, ergibt sich erst aus dem persönlichen Gespräch."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Originalseite der Praxis: Pflanzenheilkunde",
+      "url": "https://www.alscher-scheunemann.de/therapieverfahren/pflanzenheilkunde/"
+    },
+    {
+      "label": "NCCIH: Heilpflanzen im Überblick (englisch)",
+      "url": "https://www.nccih.nih.gov/health/herbsataglance"
+    },
+    {
+      "label": "NCCIH: Wechselwirkungen von Heilpflanzen und Medikamenten (englisch)",
+      "url": "https://www.nccih.nih.gov/health/tips/tips-how-herbs-can-interact-with-medicines"
+    }
+  ]
+}

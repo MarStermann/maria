@@ -1,0 +1,69 @@
+{
+  "seo": {
+    "title": "Über mich – Heilpraktikerin in Hamburg",
+    "description": "Lernen Sie Maria Alscher-Scheunemann kennen: Heilpraktikerin in Hamburg mit eigener Praxis seit 1998. Zeit zum Zuhören und individuelle naturheilkundliche Begleitung.",
+    "image": "/wordpress images/Praxisfoto-ganz-in-weiss-scaled-1.webp",
+    "noIndex": false
+  },
+  "eyebrow": "Mit Herz. Erfahrung. Ganzheitlichem Blick.",
+  "title": "Über mich",
+  "lead": "Ich bin Maria Alscher-Scheunemann. Seit 1998 begleite ich Menschen in meiner naturheilkundlichen Praxis in Hamburg – mit einem Blick auf den ganzen Menschen und seine Lebensumstände.",
+  "paragraphs": [
+    "Im Mittelpunkt meiner Arbeit stehen sorgfältiges Zuhören, verständliche Empfehlungen und eine Begleitung, die Sie nicht auf einzelne Beschwerden reduziert.",
+    "Ich nehme mir Zeit für Ihre Geschichte, Ihre Fragen und Ihre Wünsche. Gemeinsam besprechen wir, welche nächsten Schritte zu Ihrer persönlichen Situation passen."
+  ],
+  "portrait": {
+    "src": "/maria-portrait-ivory-v2.png",
+    "alt": "Maria Alscher-Scheunemann, Heilpraktikerin in Hamburg",
+    "objectPosition": "25% center",
+    "sourceNote": "Originalportrait der Praxis; Hintergrund mit Imagegen an den hellen Seitenhintergrund angepasst."
+  },
+  "quote": "Mir ist wichtig, Ihnen zuzuhören und Ihre Beschwerden im Zusammenhang mit Ihrer persönlichen Geschichte zu betrachten.",
+  "values": [
+    {
+      "icon": "heart",
+      "title": "Ganzheitlich",
+      "text": "Sie als Mensch stehen im Mittelpunkt."
+    },
+    {
+      "icon": "person",
+      "title": "Individuell",
+      "text": "Begleitung, die zu Ihrer Situation passt."
+    },
+    {
+      "icon": "leaf",
+      "title": "Natürlich",
+      "text": "Naturheilkundliche Möglichkeiten im Blick."
+    },
+    {
+      "icon": "time",
+      "title": "Zeit & Verständnis",
+      "text": "Raum für Ihre Geschichte und Ihre Fragen."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Mein Weg",
+      "body": "Seit 1997 bin ich Heilpraktikerin. 1998 habe ich meine eigene Praxis in Hamburg eröffnet. Die Naturheilkunde bildet den Mittelpunkt meiner Arbeit. Menschen aufmerksam und individuell zu begleiten, ist dabei mein Anliegen – vom ersten Gespräch bis zu den nächsten gemeinsam besprochenen Schritten."
+    }
+  ],
+  "priorities": {
+    "heading": "Was mir wichtig ist",
+    "items": [
+      "Eine vertrauensvolle, wertschätzende Atmosphäre",
+      "Ehrliche, verständliche Beratung auf Augenhöhe",
+      "Nachvollziehbare Empfehlungen, die in Ihren Alltag passen"
+    ]
+  },
+  "cta": {
+    "text": "Ich freue mich darauf, Sie kennenzulernen und Sie auf Ihrem Weg zu begleiten.",
+    "label": "Termin anfragen",
+    "href": "/kontakt"
+  },
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Heilpraktikerin Hamburg | Naturheilkunde und Akupunktur",
+    "description": "Maria Alscher-Scheunemann ist Heilpraktikerin in Hamburg mit Schwerpunkten Akupunktur, Naturheilkunde, Frauenheilkunde, Diagnostik und Beratung.",
+    "image": "/og-default.svg",
+    "noIndex": false
+  },
+  "hero": {
+    "title": "Maria Alscher-Scheunemann",
+    "appointmentLabel": "Termin anfragen",
+    "secondaryLabel": "Beschwerden entdecken",
+    "trustSignals": [
+      "Heilpraktikerin seit 1997",
+      "Eigene Praxis seit 1998",
+      "Dozentin seit 2010"
+    ]
+  },
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  },
+  "values": {
+    "items": [
+      {
+        "text": "Ganzheitlicher Blick auf Körper, Geist und Ihre Lebenssituation",
+        "icon": "heart"
+      },
+      {
+        "text": "Naturheilkundliche Verfahren, individuell mit Ihnen abgestimmt",
+        "icon": "plant"
+      },
+      {
+        "text": "Zeit für Sie und Ihre persönliche Geschichte",
+        "icon": "time"
+      },
+      {
+        "text": "Mitten in Hamburg – persönlich für Sie da",
+        "icon": "location"
+      }
+    ]
+  },
+  "about": {
+    "buttonHref": "/ueber-mich",
+    "imageAlt": "Maria Alscher-Scheunemann, Heilpraktikerin in Hamburg",
+    "imagePosition": "50% 38%",
+    "heading": "Über 25 Jahre Erfahrung.\nZeit für den Menschen.",
+    "paragraphs": [
+      "Seit 1998 begleite ich Menschen in meiner naturheilkundlichen Praxis in Hamburg. Im Mittelpunkt stehen Sie mit Ihrer Geschichte und Ihren Fragen.",
+      "Ein Schwerpunkt meiner Arbeit ist die naturheilkundliche Frauenheilkunde – von Zyklusthemen und Kinderwunsch bis zu den Wechseljahren.",
+      "Gemeinsam besprechen wir, welche Begleitung zu Ihrer Situation passt. Dabei können unter anderem Akupunktur, Pflanzenheilkunde und mikrobiologische Therapie eine Rolle spielen."
+    ],
+    "decorationImage": "/brand-neu-botanical-cutout.png",
+    "buttonLabel": "Mehr über mich",
+    "image": "/maria-portrait-ivory-v2.png",
+    "imageSource": "Originalportrait der Praxis; Hintergrund mit Imagegen an den hellen Seitenhintergrund angepasst."
+  },
+  "complaints": {
+    "items": [
+      {
+        "imageAlt": "Hände auf dem Unterbauch mit einer Blüte",
+        "imageScale": 1,
+        "image": "/wordpress images/Endometriose.webp",
+        "title": "Zyklusbeschwerden\n& PMS",
+        "imagePosition": "50% 50%",
+        "href": "/beschwerden/menstruations-zyklusbeschwerden",
+        "text": "Regelbeschwerden, Zyklus und persönliche Zusammenhänge verstehen."
+      },
+      {
+        "imageAlt": "Paar in einer blühenden Wiese",
+        "imageScale": 1.85,
+        "image": "/wordpress images/Kinderwunschbild.webp",
+        "title": "Kinderwunsch\n& Fruchtbarkeit",
+        "imagePosition": "88% 35%",
+        "href": "/beschwerden/kinderwunsch",
+        "text": "Fragen zum Kinderwunsch in Ruhe besprechen – für Sie und Ihn."
+      },
+      {
+        "imageAlt": "Frau mit einer Tasse am Wasser",
+        "imageScale": 1.8,
+        "image": "/wordpress images/Wechseljahre-Homepage.webp",
+        "title": "Wechseljahre\n& Hormone",
+        "imagePosition": "29% 80%",
+        "href": "/beschwerden/wechseljahresbeschwerden",
+        "text": "Veränderungen einordnen und mögliche nächste Schritte besprechen."
+      },
+      {
+        "imageAlt": "Erschöpfte Frau an einem Tisch",
+        "imageScale": 1.85,
+        "image": "/wordpress images/ChatGPT-Image-20.-Mai-2026-17_32_28-1.webp",
+        "title": "Erschöpfung\n& Stress",
+        "imagePosition": "90% 30%",
+        "href": "/beschwerden/erschoepfung",
+        "text": "Belastungen, Schlaf und Ihren Alltag gemeinsam in den Blick nehmen."
+      },
+      {
+        "imageAlt": "Illustration der Darmschleimhaut und ihrer Mikroorganismen",
+        "imageScale": 2.4,
+        "image": "/wordpress images/Darmschleimhaut-1.webp",
+        "title": "Darmgesundheit\n& Verdauung",
+        "imagePosition": "50% 49%",
+        "href": "/beschwerden/reizdarm-funktionelle-verdauungsbeschwerden",
+        "text": "Orientierung bei Blähungen, Reizdarm und Unverträglichkeiten."
+      },
+      {
+        "imageAlt": "Porträt einer Frau mit Hautunreinheiten",
+        "imageScale": 2.05,
+        "image": "/wordpress images/Akne-in-jedem-Alter-naturheilkundlichen-Behandlungsansaetze-1.webp",
+        "title": "Haut\n& Allergien",
+        "imagePosition": "50% 20%",
+        "href": "/beschwerden/akne",
+        "text": "Hautveränderungen und mögliche Zusammenhänge sorgfältig betrachten."
+      }
+    ],
+    "heading": "Mit welchen Beschwerden kann ich Sie begleiten?",
+    "buttonLabel": "Alle Beschwerden ansehen",
+    "buttonHref": "/beschwerden"
+  },
+  "articles": {
+    "enabled": true,
+    "source": "news",
+    "layout": "cards",
+    "topicSlug": "",
+    "heading": "Aktuelles aus der Praxis",
+    "description": "Neuigkeiten und aktuelle Hinweise zum Weiterlesen.",
+    "articleSlugs": [],
+    "limit": 3
+  },
+  "statement": {
+    "backgroundImage": "/brand-neu-botanical-cutout.png",
+    "text": "Zuhören, Zusammenhänge verstehen und gemeinsam die nächsten Schritte besprechen – mit Zeit für Ihre persönliche Geschichte."
+  }
+}

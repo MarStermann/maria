@@ -1,14 +1,23 @@
+import { editableServices } from "./editable";
+
+import { publicEnv } from "@/lib/env";
+
 export const siteConfig = {
   name: "Maria Alscher-Scheunemann",
   practitionerName: "Maria Alscher-Scheunemann",
   role: "Heilpraktikerin",
   city: "Hamburg",
-  baseUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.alscher-scheunemann.de",
+  baseUrl: publicEnv.siteUrl,
   description:
-    "Akupunktur, klassische Naturheilkunde und ganzheitliche Frauenheilkunde mit ruhiger Anamnese und transparenter Begleitung.",
+    "Heilpraktikerin in Hamburg mit Schwerpunkten Akupunktur, Naturheilkunde, Frauenheilkunde, Diagnostik und Beratung.",
   branding: {
     domain: "www.alscher-scheunemann.de",
-    quote: "Weil Gesundheit mehr ist als die Abwesenheit von Krankheit."
+    quote: "Weil Gesundheit mehr ist als die Abwesenheit von Krankheit.",
+    heroServiceRows: [
+      ["Ganzheitliche Frauenheilkunde"],
+      ["Naturheilkunde", "Regulationsmedizin"],
+      ["Diagnostik", "Therapie", "Beratung"]
+    ]
   },
   contact: {
     phone: "040 / 432 710 84",
@@ -22,43 +31,12 @@ export const siteConfig = {
     locality: "Hamburg",
     country: "DE"
   },
-  services: [
-    {
-      title: "Akupunktur",
-      slug: "akupunktur",
-      summary:
-        "Ruhige, individuell eingeordnete Akupunktur-Begleitung im Rahmen einer persönlichen Anamnese.",
-      metaDescription:
-        "Akupunktur bei Maria Alscher-Scheunemann: persönliche Anamnese, transparente Begleitung und ruhige Terminplanung."
-    },
-    {
-      title: "Klassische Naturheilkunde",
-      slug: "klassische-naturheilkunde",
-      summary:
-        "Naturheilkundliche Verfahren werden sorgfältig erklärt und passend zur individuellen Situation besprochen.",
-      metaDescription:
-        "Klassische Naturheilkunde in der Praxis Maria Alscher-Scheunemann: sorgfältig erklärt und individuell begleitet."
-    },
-    {
-      title: "Ganzheitliche Frauenheilkunde",
-      slug: "ganzheitliche-frauenheilkunde",
-      summary:
-        "Begleitung für frauenbezogene Gesundheitsthemen mit Zeit für Fragen, Kontext und alltagstaugliche nächste Schritte.",
-      metaDescription:
-        "Ganzheitliche Frauenheilkunde bei Maria Alscher-Scheunemann: ruhige Beratung, Anamnese und individuelle Begleitung."
-    },
-    {
-      title: "Diagnostik, Behandlung und Beratung",
-      slug: "diagnostik-behandlung-beratung",
-      summary:
-        "Strukturierte Einordnung, transparente Empfehlungen und Beratung mit klaren Grenzen der naturheilkundlichen Arbeit.",
-      metaDescription:
-        "Diagnostik, Behandlung und Beratung bei Maria Alscher-Scheunemann: strukturierte Einordnung und transparente nächste Schritte."
-    }
-  ],
+  services: editableServices,
   navigation: [
-    { label: "Leistungen", href: "/leistungen" },
+    { label: "Beschwerden", href: "/beschwerden" },
+    { label: "Therapieverfahren", href: "/therapieverfahren" },
     { label: "Über mich", href: "/ueber-mich" },
+    { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/kontakt" }
   ]
 } as const;

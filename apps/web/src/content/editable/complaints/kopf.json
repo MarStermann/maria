@@ -1,0 +1,68 @@
+{
+  "id": "kopf",
+  "label": "Kopf & Sinne",
+  "shortLabel": "Kopf",
+  "description": "Kopfschmerzen, Migräne, Heuschnupfen und hormonell beeinflusster Haarausfall können ganz unterschiedliche Hintergründe haben. Verlauf, Begleitsymptome und mögliche Zusammenhänge werden deshalb individuell betrachtet.",
+  "marker": {
+    "targetX": 50,
+    "targetY": 24,
+    "calloutX": 4,
+    "calloutY": 17,
+    "side": "left",
+    "zoomScale": 1.35
+  },
+  "groups": [
+    {
+      "id": "kopf",
+      "label": "Kopf",
+      "topics": [
+        {
+          "title": "Kopfschmerzen & Migräne",
+          "slug": "kopfschmerzen-migraene",
+          "metaDescription": "Kopfschmerzen und Migräne ganzheitlich einordnen: mögliche Zusammenhänge, wichtige Abklärung und naturheilkundliche Begleitung in Hamburg.",
+          "description": "Ob drückend, ziehend, einseitig oder wiederkehrend: Für die Einordnung sind Verlauf, Häufigkeit und Begleitsymptome ebenso wichtig wie mögliche Bezüge zu Nacken, Stress, Schlaf oder Verdauung.",
+          "therapySlugs": [
+            "ohrakupunktur",
+            "fussreflexzonentherapie",
+            "mikrobiologische-therapie"
+          ],
+          "seoTitle": "Kopfschmerzen & Migräne in Hamburg",
+          "image": "/xray/xray-kopf.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Heuschnupfen",
+          "slug": "heuschnupfen",
+          "metaDescription": "Heuschnupfen mit Niesreiz, laufender Nase und juckenden Augen: Orientierung und individuelle naturheilkundliche Begleitung in Hamburg.",
+          "description": "Niesreiz, eine laufende oder verstopfte Nase sowie juckende, tränende Augen können die Pollensaison stark belasten. Die naturheilkundliche Begleitung wird auf Beschwerden und Verlauf abgestimmt.",
+          "therapySlugs": [
+            "allergien-heuschnupfen",
+            "ohrakupunktur",
+            "pflanzenheilkunde"
+          ],
+          "seoTitle": "Heuschnupfen in Hamburg",
+          "image": "/xray/xray-kopf.webp",
+          "noIndex": false
+        },
+        {
+          "title": "Hormonell bedingter Haarausfall",
+          "slug": "hormonell-bedingter-haarausfall",
+          "seoTitle": "Hormoneller Haarausfall in Hamburg",
+          "metaDescription": "Hormonell beeinflussten Haarausfall sorgfältig einordnen: Lebensphase, Stress und mögliche Ursachen in einer individuellen Anamnese betrachten.",
+          "description": "Bei verstärktem Haarausfall können hormonelle Veränderungen, Lebensphase und Stress mitbetrachtet werden. Eine ärztliche Abklärung möglicher Ursachen bleibt wichtig.",
+          "therapySlugs": [
+            "naturheilkundliche-frauenheilkunde"
+          ],
+          "image": "/xray/xray-kopf.webp",
+          "noIndex": false
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "review",
+    "medicalReviewRequired": true,
+    "reviewedBy": "",
+    "lastReviewedAt": ""
+  }
+}
