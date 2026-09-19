@@ -61,7 +61,7 @@ jobs:
           key="$RUNNER_TEMP/maria-deploy-key"
           hosts="$RUNNER_TEMP/maria-known-hosts"
           trap 'rm -f "$key" "$hosts" "$RUNNER_TEMP/maria-release.tgz"' EXIT
-          printf '%s\n' "$UNRAID_SSH_KEY" > "$key"
-          printf '%s\n' "$UNRAID_KNOWN_HOSTS" > "$hosts"
-          ssh -i "$key" -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$hosts" -o ConnectTimeout=15 "root@$UNRAID_HOST" "deploy $GITHUB_SHA" < "$RUNNER_TEMP/maria-release.tgz"
+          printf '%s\n' "$UNRAID_SSH_KEY" | tr -d '\r' > "$key"
+          printf '%s\n' "$UNRAID_KNOWN_HOSTS" | tr -d '\r' > "$hosts"
+          ssh -i "$key" -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$hosts" -o ConnectTimeout=15 "root@$UNRAID_HOST" "deploy $GITHUB_SHA" < "$RUNNER_TEMP/maria-release.tgz"
           printf 'Website: http://192.168.178.101:8097\nRedaktion: http://192.168.178.101:8097/admin/\nCommit: %s\n' "$GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"
