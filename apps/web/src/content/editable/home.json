@@ -12,7 +12,7 @@
     "trustSignals": [
       "Heilpraktikerin seit 1997",
       "Eigene Praxis seit 1998",
-      "Dozentin seit 2010"
+      "Dozentin seit 1999"
     ]
   },
   "review": {
@@ -42,19 +42,19 @@
     ]
   },
   "about": {
-    "buttonHref": "/ueber-mich",
-    "imageAlt": "Maria Alscher-Scheunemann, Heilpraktikerin in Hamburg",
-    "imagePosition": "50% 38%",
     "heading": "Über 25 Jahre Erfahrung.\nZeit für den Menschen.",
+    "buttonLabel": "Mehr über mich",
+    "imagePosition": "50% 38%",
     "paragraphs": [
       "Seit 1998 begleite ich Menschen in meiner naturheilkundlichen Praxis in Hamburg. Im Mittelpunkt stehen Sie mit Ihrer Geschichte und Ihren Fragen.",
       "Ein Schwerpunkt meiner Arbeit ist die naturheilkundliche Frauenheilkunde – von Zyklusthemen und Kinderwunsch bis zu den Wechseljahren.",
       "Gemeinsam besprechen wir, welche Begleitung zu Ihrer Situation passt. Dabei können unter anderem Akupunktur, Pflanzenheilkunde und mikrobiologische Therapie eine Rolle spielen."
     ],
     "decorationImage": "/brand-neu-botanical-cutout.png",
-    "buttonLabel": "Mehr über mich",
+    "imageAlt": "Maria Alscher-Scheunemann, Heilpraktikerin in Hamburg",
+    "imageSource": "Originalportrait der Praxis; Hintergrund mit Imagegen an den hellen Seitenhintergrund angepasst.",
     "image": "/maria-portrait-ivory-v2.png",
-    "imageSource": "Originalportrait der Praxis; Hintergrund mit Imagegen an den hellen Seitenhintergrund angepasst."
+    "buttonHref": "/ueber-mich"
   },
   "complaints": {
     "items": [
