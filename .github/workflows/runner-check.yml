@@ -1,0 +1,86 @@
+name: Unraid Runner Check
+
+on:
+  workflow_dispatch:
+    inputs:
+      build:
+        description: Also build the application (HomeApp or Zeiterfassung)
+        type: boolean
+        default: false
+
+  push:
+    branches:
+      - codex/unraid-runners
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: [self-hosted, Linux, X64, unraid]
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify runner and shared limits
+        run: |
+          set -euo pipefail
+          test "$(cat /runner-limits/memory.max)" = 4294967296
+          test ! -S /var/run/docker.sock
+          test "$(id -u)" != 0
+          git --version
+          node --version
+          java -version
+          mvn -version
+          python3 --version
+          az version
+          printf 'runner=%s\nos=%s\narch=%s\n' "$RUNNER_NAME" "$RUNNER_OS" "$RUNNER_ARCH" > runner-check.txt
+          cat runner-check.txt >> "$GITHUB_STEP_SUMMARY"
+          sleep 3
+      - name: Check Unraid SSH connectivity
+        if: github.repository == 'MarStermann/HomeApp' || github.repository == 'MarStermann/Zeiterfassung'
+        env:
+          UNRAID_HOST: ${{ secrets.UNRAID_TAILSCALE_IP }}
+          UNRAID_USER: ${{ secrets.UNRAID_USER }}
+          UNRAID_SSH_KEY: ${{ secrets.UNRAID_SSH_KEY }}
+        run: |
+          umask 077
+          mkdir -p "$HOME/.ssh"
+          printf '%s\n' "$UNRAID_SSH_KEY" > "$HOME/.ssh/id_rsa"
+          ssh -i "$HOME/.ssh/id_rsa" -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15 -p 22 "$UNRAID_USER@$UNRAID_HOST" 'hostname; docker version --format "{{.Server.Version}}"'
+      - name: Verify .NET installation
+        if: github.repository == 'MarStermann/eShopOnWeb'
+        uses: actions/setup-dotnet@v4
+        env:
+          DOTNET_INSTALL_DIR: ${{ runner.tool_cache }}/dotnet
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build and test HomeApp
+        if: (inputs.build || github.ref == 'refs/heads/codex/unraid-runners') && github.repository == 'MarStermann/HomeApp'
+        run: |
+          cd homeapp-frontend
+          npm ci
+          node --test tests/utility-paths.test.mjs
+          npm run build
+          cd ../homeapp-backend
+          mvn -B clean package
+      - name: Build Zeiterfassung
+        if: (inputs.build || github.ref == 'refs/heads/codex/unraid-runners') && github.repository == 'MarStermann/Zeiterfassung'
+        run: |
+          cd frontend
+          npm ci
+          npm run build
+          cd ../backend
+          mvn -B clean package -DskipTests
+      - uses: actions/upload-artifact@v4
+        with:
+          name: runner-check
+          path: runner-check.txt
+          retention-days: 1
+      - uses: actions/download-artifact@v4
+        with:
+          name: runner-check
+          path: downloaded-runner-check
+      - name: Verify artifact round trip
+        run: cmp runner-check.txt downloaded-runner-check/runner-check.txt
